@@ -1,6 +1,7 @@
 import AnimatedText from '@/components/AnimatedText';
 import GymComponent from '@/components/Gym';
 import Gym from '@/components/Gym';
+import TransitionEffect from '@/components/TransitionEffect';
 import WritingComponent from '@/components/Writing';
 import Layout from '@/components/layout';
 import Head from 'next/head';
@@ -13,6 +14,7 @@ const hobby = () => {
         <title>You Jun | Articles</title>
       </Head>
       {/* <ParticlesContainer /> */}
+      <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center '>
         
         <Layout className='pt-30'>
