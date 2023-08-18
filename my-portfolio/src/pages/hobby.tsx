@@ -1,16 +1,33 @@
-import Head from 'next/head'
-import React from 'react'
+import AnimatedText from '@/components/AnimatedText';
+import GymComponent from '@/components/Gym';
+import Gym from '@/components/Gym';
+import WritingComponent from '@/components/Writing';
+import Layout from '@/components/layout';
+import Head from 'next/head';
+import React from 'react';
 
 const hobby = () => {
   return (
     <>
-    <Head>
-      <title>You Jun | Articles</title>
-    </Head>
-    
-    
-    </>
-  )
-}
+      <Head>
+        <title>You Jun | Articles</title>
+      </Head>
+      {/* <ParticlesContainer /> */}
+      <main className='flex w-full flex-col items-center justify-center '>
+        
+        <Layout className='pt-30'>
+     
+        <div className='flex flex-col gap-10'>
 
-export default hobby
+
+       <GymComponent />
+      <WritingComponent />
+        </div>
+
+        </Layout>
+      </main>
+    </>
+  );
+};
+
+export default hobby;
