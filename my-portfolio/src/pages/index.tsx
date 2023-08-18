@@ -2,7 +2,7 @@ import Layout from '@/components/layout';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
-import profilePic from '../../public/images/profile/developer-pic-1.png';
+import profilePic from '../../public/circleMe.png';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
@@ -26,11 +26,11 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-25 md:pt-16 sm:pt-8 dark:bg-transparent bg-transparent'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='w-1/2 md:w-full'>
+            <div className='w-1/2 md:w-full '>
               <Image
                 src={profilePic}
                 alt='YouJun'
-                className='w-full h-auto lg:hidden md:inline-block md:w-full '
+                className='w-full h-auto lg:hidden md:inline-block md:w-full'
                 priority
                 sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw'
               ></Image>
@@ -79,12 +79,12 @@ export default function Home() {
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
-                  href='/dummy.pdf'
+                  href='https://candle-keyboard-dd4.notion.site/Web3-Developer-253efdad5e5d4385b9e2a80e4b9d19c7?pvs=4'
                   target={'_blank'}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold   dark:bg-light md:p-2 md:px-4 md:text-base
                   animate-bounce 
                    bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80   py-2.5 text-center mr-2 mb-2'
-                  download={true}
+                  // download={true}
                 >
                   Resume
                   <svg

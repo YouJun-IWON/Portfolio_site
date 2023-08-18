@@ -3,7 +3,7 @@ import Layout from '@/components/layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
-import profilePoc from '../../public/images/profile/developer-pic-2.jpg';
+import profilePoc from '../../public/youjun.jpg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import FESkills from '@/components/FESkills';
 import Experience from '@/components/Experience';
@@ -45,7 +45,7 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>YouJun | About Page</title>
+        <title>YouJun | About</title>
         <meta name='description' content='any description' />
       </Head>
       <TransitionEffect />
