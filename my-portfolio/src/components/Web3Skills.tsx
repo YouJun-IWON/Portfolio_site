@@ -34,7 +34,7 @@ const Skill = ({ name, x, y, level, source, className }: any) => {
         className={undefined}
       />
       <span className='font-bold text-lg mt-2'>{name}</span>
-      <span className='text-slate-500'>{level}</span>
+      <span className='text-slate-500 dark:text-slate-300'>{level}</span>
     </motion.div>
   );
 };
@@ -118,7 +118,7 @@ const Web3Skills = () => {
           source={WagmiIcon}
           name='Wagmi'
           level='Basic'
-          className='shadow-amber-900'
+          className='shadow-gray-500'
         />
      
 

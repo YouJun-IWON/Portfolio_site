@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll } from 'framer-motion';
 import LiIcon from './Lilcon';
+import Link from 'next/link';
 
 interface DetailsPropr {
   position: string;
@@ -9,6 +10,7 @@ interface DetailsPropr {
   time: string;
   address: string;
   work: string;
+  blockchainLink?: string;
 }
 const Details = ({
   position,
@@ -17,6 +19,7 @@ const Details = ({
   time,
   address,
   work,
+  blockchainLink,
 }: DetailsPropr) => {
   const ref = useRef(null);
 
@@ -44,7 +47,11 @@ const Details = ({
         <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
           {time} | {address}
         </span>
-
+        <br/>
+        {blockchainLink && <Link href={blockchainLink} target='_blank' className='text-blue-500 hover:underline-offset-1 hover:underline'>
+              🔗 Study-Note
+        </Link>
+}
         <p className='font-medium w-full md:text-sm'>{work}</p>
       </motion.div>
     </li>
@@ -97,7 +104,7 @@ const Experience = () => {
             address='Aviation maintenance battalion'
             work='12000km 무사고 운전 경력'
           />
-
+{/* 
 <Details
             position='Trainer'
             company='(주) 팀원짐 헬스장'
@@ -105,7 +112,7 @@ const Experience = () => {
             time='2021-2022'
             address='경기도 광명시 디지털로17'
             work="근육 근막이완 / 세일즈 교육 / 2, 3분할 운동 / 생활체육 기본 / 식단프로그램 / 전신운동프로그램 교육 이수 및 시험 통과 / 바디 프로필 사진 촬영"
-          />
+          /> */}
 
           <Details
             position='Brunch Writer'
@@ -113,7 +120,7 @@ const Experience = () => {
             companyLink='https://brunch.co.kr/@iwonyoujun'
             time='2022-2023'
             address=''
-            work="50편의 글 기재 / 약 4000+ 명의 독자 / 객관적인 과학적 / 사회적 / 인류역사적 사실을 논리적으로 전개하여 추상적이고 주관적인 존재들을 정의내리는 과정에 대한 내용/ '나의 삶을 생각하기론' 이라는 제목의 작품 출품 / 2번째 작품(가명: '내가 생각하기론') 연재중 "
+            work="50+편의 글 기재 / 약 4000+ 명의 독자 / 객관적인 과학적, 사회적, 인류역사적 사실을 논리적으로 전개하여 추상적이고 주관적인 존재들을 정의내리는 과정에 대한 내용/ '나의 삶을 생각하기론' 이라는 제목의 작품 출품 / 2번째 작품(가명: '내가 생각하기론') 연재중 "
           />
 
           <Details
@@ -122,7 +129,8 @@ const Experience = () => {
             companyLink='https://www.codestates.com/course/blockchain'
             time='2022-2023'
             address='서울특별시 강남구 테헤란로 415'
-            work="(https://candle-keyboard-dd4.notion.site/Blockchain-bddca30150574398a2f00a829da37011) / Bitcoin whitepaper / Ethereum whitepaper / DLT / DDB /Wallet & Account / UniSwap / Consensus Algorithms / Merkle tree / Tap root / Bloom Filter / DAG / DHT / IPFS / DID / SSI / Solidity / Security / Web3.js / Infura / Trilemma / Zero-Knowledge Proofs ..."
+            blockchainLink='https://candle-keyboard-dd4.notion.site/Blockchain-bddca30150574398a2f00a829da37011'
+            work="Bitcoin whitepaper / Ethereum whitepaper / DLT / DDB /Wallet & Account / UniSwap / Consensus Algorithms / Merkle tree / Tap root / Bloom Filter / DAG / DHT / IPFS / DID / SSI / Solidity / Security / Web3.js / Infura / Trilemma / Zero-Knowledge Proofs ..."
           />
 
           <Details

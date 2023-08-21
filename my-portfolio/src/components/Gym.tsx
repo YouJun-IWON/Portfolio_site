@@ -34,9 +34,9 @@ const GymComponent = () => {
         </h1>
         <p className='text-slate-700 text-lg leading-8 mt-6 mb-14 xl:mb-0 max-w-sm dark:text-slate-200'>
           건강한 몸과 쉽게 지치지 않는 체력을 통해 스타일리쉬한 삶, 창의적인
-          생각, 묵직하게 바디감으로 밀고가는 유지력을 지향합니다. <br />
+          생각, 묵직한 바디감으로 밀고가는 유지력을 지향합니다. <br />
           <br />
-          어제의 나보다 더 무겁고 많은 횟수로 한계를 돌파하는 것에 쾌감을
+          어제의 나보다 더 무겁게, 더 많이, 더 크게 목표를 잡으면서 한계를 돌파하는 것에 쾌감을
           느낍니다.
         </p>
         <div className='absolute -bottom-10 -right-16 md:-top-14 md:-right-10'>

@@ -229,18 +229,18 @@ const projects = () => {
                 Pagination,
                 EffectCoverflow,
                 A11y,
-                Autoplay,
+                // Autoplay,
               ]} // Autoplay A11y
               spaceBetween={50}
               slidesPerView={3}
               effect={'coverflow'}
               grabCursor={true}
               centeredSlides={true}
-              loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // loop={true}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               coverflowEffect={{
                 rotate: 0,
                 stretch: 0,
@@ -256,7 +256,7 @@ const projects = () => {
                   title='Clone Starbucks HomePage / LoginPage'
                   link='https://tranquil-kleicha-3eb0ad.netlify.app/'
                   github='https://github.com/YouJun-IWON/starbucks'
-                  type='Vanilla JavaScript'
+                  type='Vanilla JavaScript / CSS'
                   summary='CSS / HTML / SWIPER / Lodash / GSAP / YOUTUBE VIDEO / ScrollMagic / ScrollToPlugin'
                   img={startbucksProject}
                 />
@@ -305,7 +305,7 @@ const projects = () => {
               <SwiperSlide>
                 <Project
                   title='Disney+ Page & Google Login'
-                  summary='React / Firebase / Google Login'
+                  summary='React / Firebase / Google Login / Redux'
                   link='https://react-disney-plus-app-d21d6.web.app/main'
                   github='https://github.com/YouJun-IWON/reat-disney-plus-app-login_improve'
                   type='React / Responsive'
@@ -400,7 +400,7 @@ const projects = () => {
               <SwiperSlide className='p-3'>
                 <Project
                   title='Disney+ Page & Google Login'
-                  summary='React / Firebase / Google Login'
+                  summary='React / Firebase / Google Login / Redux'
                   link='https://react-disney-plus-app-d21d6.web.app/main'
                   github='https://github.com/YouJun-IWON/reat-disney-plus-app-login_improve'
                   type='React / Responsive'

@@ -32,7 +32,7 @@ const Skill = ({ name, x, y, level, source, className }: any) => {
         className={undefined}
       />
       <span className='font-bold text-lg mt-2'>{name}</span>
-      <span className='text-slate-500'>{level}</span>
+      <span className='text-slate-500 dark:text-slate-300'>{level}</span>
     </motion.div>
   );
 };
@@ -56,7 +56,7 @@ const BESkills = () => {
           source={PrismaIcon}
           name='Prisma'
           level='Advanced'
-          className='shadow-blue-400'
+          className='shadow-sky-900'
         />
 
         <Skill
