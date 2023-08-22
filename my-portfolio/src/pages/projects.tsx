@@ -557,7 +557,7 @@ const ProcessingProject = ({
               {title}
             </h2>
           </Link>
-          <div className='my-2 font-medium text-dark dark:text-light sm:text-sm flex gap-3'>
+          <div className='my-2 font-medium text-dark dark:text-light sm:text-sm flex gap-3 flex-wrap'>
             {svgIcons}
           </div>
           <div className='font-medium text-dark dark:text-light sm:text-sm'>
@@ -587,9 +587,9 @@ const ProcessingProject = ({
             <Link
               href={link}
               target='_blank'
-              className='relative inline-block text-lg group ml-4'
+              className='relative inline-block text-lg  group ml-4'
             >
-              <span className='relative z-10 block px-5 py-3  overflow-hidden font-medium leading-tight text-gray-800 dark:text-gray-50 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white dark:group-hover:text-black dark:border-none'>
+              <span className='relative z-10 block px-5 py-3  overflow-hidden font-medium leading-tight text-gray-800 dark:text-gray-50 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg md:px-3  group-hover:text-white dark:group-hover:text-black dark:border-none'>
                 <span className='absolute inset-0 dark:bg-gray-900 w-full h-full px-5 py-3 rounded-lg bg-gray-50'></span>
                 <span className='absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 dark:bg-gray-50 group-hover:-rotate-180 ease'></span>
                 <span className='relative'>Visit Project</span>
@@ -660,7 +660,7 @@ const Project = ({ title, type, img, link, github, summary, icons }: any) => {
           </h2>
         </Link>
 
-        <div className=' font-medium text-dark dark:text-light sm:text-sm flex gap-3'>
+        <div className=' font-medium text-dark dark:text-light sm:text-sm flex flex-wrap gap-3'>
           {svgIcons}
         </div>
 
