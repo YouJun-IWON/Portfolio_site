@@ -11,9 +11,9 @@ import Web3JSIcon from '../../public/images/svgs/skills/web3js-seeklogo.com.svg'
 import HardHatIcon from '../../public/images/svgs/skills/hardhat-seeklogo.com.svg';
 import TruffleIcon from '../../public/images/svgs/skills/truffle-seeklogo.com.svg';
 import WagmiIcon from '../../public/images/svgs/skills/wagmii.png';
-import RedisIcon from '../../public/images/svgs/skills/redis-svgrepo-com.svg';
-import ReduxIcon from '../../public/images/svgs/skills/redux-svgrepo-com.svg';
-import ZustandIcon from '../../public/images/svgs/skills/Screenshot 2023-08-16 at 1.55.04 AM-min.png';
+
+
+
 
 const Skill = ({ name, x, y, level, source, className }: any) => {
   return (
@@ -30,8 +30,8 @@ const Skill = ({ name, x, y, level, source, className }: any) => {
         src={source}
         width={300}
         height={300}
-        alt='Access Denied'
-        className={undefined}
+        alt=''
+        className='min-h-[23vh]'
       />
       <span className='font-bold text-lg mt-2'>{name}</span>
       <span className='text-slate-500 dark:text-slate-300'>{level}</span>

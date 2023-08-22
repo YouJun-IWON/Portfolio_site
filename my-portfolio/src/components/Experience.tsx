@@ -82,7 +82,7 @@ const Experience = () => {
             position='Industrial Engineering'
             company='Gachon univ.'
             companyLink='https://www.gachon.ac.kr/kor/index.do'
-            time='2017-present'
+            time='2017-마지막 학기'
             address='경기도 성남시 수정구 성남대로 1342'
             work='실용통계학 / 경영학원론 / 웹프로그래밍 / 정보사회의 윤리 / 고전과 미디어 스토리 텔링 /  산업경영공학개론 / 경영수학 / 프로그래밍언어 / 과학기술글쓰기 / 물류관리 / 경제학원론 / 논리적사고 / 서비스공학 / 생산운영관리 / 인간공학 및 실험 / 로봇공학 / 소프트웨어 생태계 / 문제해결기법(c언어) / 생산계획 및 통제 / 품질실험계획실무 / 데이터베이스시스템 / 고객관계관리 / motion&time study / 산업공학 종합설계 / 기술경영 / 데이터 엔지니어링 / 로지스틱공학'
           />
@@ -91,7 +91,7 @@ const Experience = () => {
             position='Global Business School'
             company='Gachon univ.'
             companyLink='https://www.gachon.ac.kr/kor/index.do'
-            time='2017-present'
+            time='2017-마지막 학기'
             address='경기도 성남시 수정구 성남대로 1342'
             work='마케팅 원론 / 노사관계론 / 국제경영 / 인간심리의 이해 / 회계 원리 / 글로벌의 이해 / 중급회계 / 소비자행동 / 혁신과 전략 / 기업재무 / 조직행동 / 기업가 정신 / 기업과 리더십 / 브랜드 매니지먼트 / 비즈니스 애널리틱스 / 비즈니스와 통계 / 프로그래밍 기초'
           />

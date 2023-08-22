@@ -19,6 +19,10 @@ import StyledComponentsIcon from '../../public/images/svgs/skills/styled-compone
 
 import EmotionIcon from '../../public/images/svgs/skills/emotion.png';
 import MantineIcon from '../../public/images/svgs/skills/mantine-seeklogo.com.svg';
+import MotionFramerIcon from '../../public/images/svgs/skills/framer-motion.svg';
+
+import ReactQueryIcon from '../../public/images/svgs/skills/react-query-seeklogo.com.svg';
+import SWRIcon from '../../public/images/svgs/skills/swr-seeklogo.com.svg';
 
 const Skill = ({ name, x, y, level, source, className }: any) => {
   return (
@@ -36,7 +40,7 @@ const Skill = ({ name, x, y, level, source, className }: any) => {
         width={300}
         height={300}
         alt='Access Denied'
-        className={undefined}
+        className='min-h-[23vh]'
       />
       <span className='font-bold text-lg mt-2'>{name}</span>
       <span className='text-slate-600 dark:text-slate-300'>{level}</span>
@@ -172,6 +176,33 @@ const FESkills = () => {
           name='Mantine'
           level='intermediate'
           className='shadow-blue-500'
+        />
+
+        <Skill
+          x='-10vw'
+          y='10vw'
+          source={MotionFramerIcon}
+          name='Motion Framer'
+          level='intermediate'
+          className='shadow-purple-700'
+        />
+
+        <Skill
+          x='-10vw'
+          y='10vw'
+          source={ReactQueryIcon}
+          name='React Query'
+          level='Basic'
+          className='shadow-red-500'
+        />
+
+        <Skill
+          x='-10vw'
+          y='10vw'
+          source={SWRIcon}
+          name='SWR'
+          level='Basic'
+          className='shadow-gray-500'
         />
 
         {/* <motion.div

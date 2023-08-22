@@ -6,14 +6,7 @@ import Image from 'next/image';
 // icons
 import FigmaIcon from '../../public/images/svgs/skills/Figma-logo.svg';
 import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08-16 at 1.55.17 PM.png';
-import EtherJSIcon from '../../public/images/svgs/skills/ethers-seeklogo.com.svg';
-import Web3JSIcon from '../../public/images/svgs/skills/web3js-seeklogo.com.svg';
-import HardHatIcon from '../../public/images/svgs/skills/hardhat-seeklogo.com.svg';
-import TruffleIcon from '../../public/images/svgs/skills/truffle-seeklogo.com.svg';
-import MongoDBIcon from '../../public/images/svgs/skills/mongo-svgrepo-com.svg';
-import RedisIcon from '../../public/images/svgs/skills/redis-svgrepo-com.svg';
-import ReduxIcon from '../../public/images/svgs/skills/redux-svgrepo-com.svg';
-import ZustandIcon from '../../public/images/svgs/skills/Screenshot 2023-08-16 at 1.55.04 AM-min.png';
+
 
 const Skill = ({ name, x, y, level, source, className }: any) => {
   return (

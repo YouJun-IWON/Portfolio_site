@@ -28,8 +28,9 @@ const Skill = ({ name, x, y, level, source, className }: any) => {
         src={source}
         width={300}
         height={300}
+        className='min-h-[23vh]'
         alt='Access Denied'
-        className={undefined}
+        
       />
       <span className='font-bold text-lg mt-2'>{name}</span>
       <span className='text-slate-500 dark:text-slate-300'>{level}</span>
