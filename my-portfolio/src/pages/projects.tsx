@@ -352,7 +352,7 @@ const projects = () => {
             <div className='col-span-6 sm:col-span-12'>
               <Project
                 title='Dynamic NFT market with Chainlink & Polygon'
-                summary='실제 NFT에 저장된 지역 정보에 따라 실제 날씨 / 시간 변화로 인해 상태가 달라지는 DNFT를 발행하고 거래할 수 있는 웹 개발 / ChainLink의 Automation 기능을 활용해 NFT의 상태를 현실세계와 연동 / Wagmi를 통해 NFT 발행 및 배포 확인 (polygonScan / Opeasea), 판매, 구매 구현 / 팀장으로서 역할 분배 및 일정 조율, github 설정 (branch/commit 조건 설정) / 프론트 파트 전담'
+                summary='실제 NFT에 저장된 지역 정보에 따라 실제 날씨, 시간 변화로 인해 상태가 달라지는 DNFT를 발행하고 거래할 수 있는 웹 개발 / ChainLink의 Automation 기능을 활용해 NFT의 상태를 현실세계와 연동 / Wagmi를 통해 NFT 발행 및 배포 확인 (polygonScan / Opeasea), 판매, 구매 구현 / 팀장으로서 역할 분배 및 일정 조율, github 설정 (branch/commit 조건 설정) / 프론트 파트 전담'
                 link='https://codestates.notion.site/3-e8190ef76f694ef788f41897fc78d9f1?p=d1f20dbd04174a2faefc22bd3318a1c0&pm=c'
                 github='https://github.com/codestates-beb/BEB-08-LiFT'
                 type='Web3 / Project Leader'
