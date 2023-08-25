@@ -56,7 +56,7 @@ const projects = () => {
         <title>YouJun | Projects</title>
         <meta name='description' content='any description' />
       </Head>
-      <TransitionEffect />
+      {/* <TransitionEffect /> */}
 
       <main className='w-full flex flex-col  items-center justify-center dark:text-light'>
         <Layout className='pt-30 '>
@@ -584,15 +584,31 @@ const ProcessingProject = ({
               </div>
             </div>
 
+            <Link href='https://www.youtube.com/watch?v=L4gYGJqjC9E'>
+              <svg
+                className='w-10 h-10 text-red-500 ml-3'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg'
+                fill='currentColor'
+                viewBox='0 0 20 14'
+              >
+                <path
+                  fill-rule='evenodd'
+                  d='M19.7 3.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.84c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.84A4.225 4.225 0 0 0 .3 3.038a30.148 30.148 0 0 0-.2 3.206v1.5c.01 1.071.076 2.142.2 3.206.094.712.363 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.15 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965c.124-1.064.19-2.135.2-3.206V6.243a30.672 30.672 0 0 0-.202-3.206ZM8.008 9.59V3.97l5.4 2.819-5.4 2.8Z'
+                  clip-rule='evenodd'
+                />
+              </svg>
+            </Link>
+
             <Link
               href={link}
               target='_blank'
-              className='relative inline-block text-lg  group ml-4'
+              className='relative inline-block text-lg md:text-base group ml-4'
             >
               <span className='relative z-10 block px-5 py-3  overflow-hidden font-medium leading-tight text-gray-800 dark:text-gray-50 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg md:px-3  group-hover:text-white dark:group-hover:text-black dark:border-none'>
                 <span className='absolute inset-0 dark:bg-gray-900 w-full h-full px-5 py-3 rounded-lg bg-gray-50'></span>
                 <span className='absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 dark:bg-gray-50 group-hover:-rotate-180 ease'></span>
-                <span className='relative'>Visit Project</span>
+                <span className='relative '>Visit Project</span>
               </span>
               <span
                 className='absolute  bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 dark:bg-gray-50 rounded-lg group-hover:mb-0 group-hover:mr-0'
