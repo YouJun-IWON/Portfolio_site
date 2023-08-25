@@ -56,7 +56,7 @@ const projects = () => {
         <title>YouJun | Projects</title>
         <meta name='description' content='any description' />
       </Head>
-      {/* <TransitionEffect /> */}
+      <TransitionEffect />
 
       <main className='w-full flex flex-col  items-center justify-center dark:text-light'>
         <Layout className='pt-30 '>

@@ -62,7 +62,7 @@ const about = () => {
                 Biograpy
               </h2>
 
-              <p className='font-medium dark:text-gray-400 '>
+              <p className='font-medium dark:text-gray-200 '>
                 안녕하세요. 사람간의 신뢰 네트워크를 강화하여 사회와 개인의 삶을
                 증진시키고자 하는 웹 개발자 이의준입니다. 저는 개인과 사회가
                 이루고 있는 시스템에 관심을 갖고 있었고, 저만의 해답을 얻고자
@@ -82,7 +82,7 @@ const about = () => {
                 ></Image>
               </div> */}
 
-              <p className='my-4 font-medium  dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left'>
+              <p className='my-4 font-medium  dark:text-gray-200 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left'>
                 1. 사람들이 더욱 빠르고 안전하게 사용할 수 있는 웹 앱/페이지를
                 제작하는 것입니다. 각 웹 사이트의 목적에 맞춰 사용자들로 하여금
                 자신의 목적을 최소한의 과정으로 달성하면서 모든 과정이 빠르고
@@ -93,7 +93,7 @@ const about = () => {
                 때 이 웹이 떠오르게 하는 것입니다.
               </p>
 
-              <p className='my-4 font-medium  dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left'>
+              <p className='my-4 font-medium  dark:text-gray-200 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left'>
                 2. 블록체인을 기반한 웹을 통해 사람들이 갖고 있는 불신의 여지를
                 최소화하는 것입니다. 현대 사회를 보면 뉴스의 3/4은 사기에 관한
                 소식이며 사람간의 신뢰는 점점 무너지고 있습니다. 그리고 이는
