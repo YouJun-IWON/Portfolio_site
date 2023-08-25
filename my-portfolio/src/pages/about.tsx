@@ -94,10 +94,10 @@ const about = () => {
               </p>
 
               <p className='my-4 font-medium  dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left'>
-                2. 블록체인을 기반한 웹을 통해 사람들이 갖고 있는 불신의
-                여지를 최소화하는 것입니다. 현대 사회를 보면 뉴스의 3/4은 사기에
-                관한 소식이며 사람간의 신뢰는 점점 무너지고 있습니다. 그리고
-                이는 기존의 몇몇 사람에 의해 쉽게 조작되고 감춰질 수 있었던
+                2. 블록체인을 기반한 웹을 통해 사람들이 갖고 있는 불신의 여지를
+                최소화하는 것입니다. 현대 사회를 보면 뉴스의 3/4은 사기에 관한
+                소식이며 사람간의 신뢰는 점점 무너지고 있습니다. 그리고 이는
+                기존의 몇몇 사람에 의해 쉽게 조작되고 감춰질 수 있었던
                 중앙화데이터 구조의 한계가 크게 작용하고 있습니다. 저는 이러한
                 구조적 문제를 해결하기 위해 블록체인이 반드시 필요하다고
                 생각합니다. 블록체인을 통해 데이터를 주권화시키고 서로를
@@ -105,8 +105,6 @@ const about = () => {
                 인지된다면 기존의 구조적 문제를 해결함과 동시에 큰 도약을 할 수
                 있을 것이라 생각합니다.
               </p>
-
-          
             </div>
 
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>

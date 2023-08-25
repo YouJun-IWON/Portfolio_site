@@ -56,7 +56,7 @@ const projects = () => {
         <title>YouJun | Projects</title>
         <meta name='description' content='any description' />
       </Head>
-      {/* <TransitionEffect /> */}
+      <TransitionEffect />
 
       <main className='w-full flex flex-col  items-center justify-center dark:text-light'>
         <Layout className='pt-30 '>
@@ -88,7 +88,7 @@ const projects = () => {
               type='Web3 / Full Stack / Responsive / Solo'
               img={iwonProject}
               Database='https://www.prismabuilder.io/schemas/New%20schema/graph'
-              myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / Web2: 80% 완료 / Web3: Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중  '
+              myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / transaction 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중  '
               icons={`${TypescriptIcon.src} / ${ReactIcon.src} / ${NextJSIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src} / ${MotionFramerIcon.src} / ${ReactQueryIcon.src} / ${SWRIcon.src} / ${PrismaIcon.src} / ${MySQLIcon.src} / ${HardHatIcon.src} / ${MoralisIcon.src}`}
             />
           </div>
