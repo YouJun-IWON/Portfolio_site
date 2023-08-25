@@ -56,7 +56,7 @@ const projects = () => {
         <title>YouJun | Projects</title>
         <meta name='description' content='any description' />
       </Head>
-      <TransitionEffect />
+      {/* <TransitionEffect /> */}
 
       <main className='w-full flex flex-col  items-center justify-center dark:text-light'>
         <Layout className='pt-30 '>
@@ -87,8 +87,9 @@ const projects = () => {
               github='https://github.com/YouJun-IWON/iwon-page'
               type='Web3 / Full Stack / Responsive / Solo'
               img={iwonProject}
+              date='2023.06.26 ~ present'
               Database='https://www.prismabuilder.io/schemas/New%20schema/graph'
-              myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / transaction 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중  '
+              myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / Transaction, Application 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중'
               icons={`${TypescriptIcon.src} / ${ReactIcon.src} / ${NextJSIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src} / ${MotionFramerIcon.src} / ${ReactQueryIcon.src} / ${SWRIcon.src} / ${PrismaIcon.src} / ${MySQLIcon.src} / ${HardHatIcon.src} / ${MoralisIcon.src}`}
             />
           </div>
@@ -132,6 +133,7 @@ const projects = () => {
                   github='https://github.com/YouJun-IWON/starbucks'
                   type='Vanilla JavaScript / CSS'
                   summary='CSS와 Javascript를 사용해서 동적상호작용이 가능한 animation 구현 / SWIPER, Lodash, GSAP, YOUTUBE VIDEO, ScrollMagic, ScrollToPlugin 적용 / 스크롤 위치 계산, 3D animation, 고정 이미지 배경 구현'
+                  date='2023.05.01 ~ 2023.05.10'
                   img={startbucksProject}
                   icons={`${HTMLicon.src} / ${CSSicon.src} / ${Javascripticon.src}`}
                 />
@@ -143,6 +145,7 @@ const projects = () => {
                   link='https://sparkling-kulfi-02644b.netlify.app/'
                   github='https://github.com/YouJun-IWON/CoinSelector-with-css-vanilla'
                   type='Vanilla CSS / Responsive'
+                  date='2023.05.11 ~ 2023.05.11'
                   img={CoinSelectorProject}
                   icons={`${HTMLicon.src} / ${CSSicon.src}`}
                 />
@@ -154,6 +157,7 @@ const projects = () => {
                   link='https://ipad-site.vercel.app/'
                   github='https://github.com/YouJun-IWON/ipad_site'
                   type='Vanilla Javascript CSS / Responsive'
+                  date='2023.05.15 ~ 2023.05.24'
                   img={ipadProject}
                   icons={`${HTMLicon.src} / ${CSSicon.src} / ${Javascripticon.src}`}
                 />
@@ -164,6 +168,7 @@ const projects = () => {
                   summary='CSS만을 사용해서 하트모양이 눈처럼 내리는 효과를 구현 / CSS와 JavaScript를 이용한 애니메이션 구현'
                   link='https://have-a-nice-jelly.netlify.app/'
                   github='#'
+                  date='2023.05.25 ~ 2023.05.26'
                   type='Vanilla Javascript CSS / Responsive'
                   img={loveProject}
                   icons={`${HTMLicon.src} / ${CSSicon.src} / ${Javascripticon.src}`}
@@ -176,6 +181,7 @@ const projects = () => {
                   link='https://movie-app-lovat-one.vercel.app/#/'
                   github='https://github.com/YouJun-IWON/movie-app'
                   type='Vanilla Javascript, Typescript, CSS / Responsive'
+                  date='2023.05.27 ~ 2023.06.03'
                   img={movieProject}
                   icons={`${HTMLicon.src} / ${CSSicon.src} / ${Javascripticon.src} / ${TypescriptIcon.src}`}
                 />
@@ -189,6 +195,7 @@ const projects = () => {
                   github='https://github.com/YouJun-IWON/reat-disney-plus-app-login_improve'
                   type='React / Responsive'
                   img={DisneyProject}
+                  date='2023.06.06 ~ 2023.06.15'
                   icons={`${ReactIcon.src} / ${CSSicon.src} / ${ReduxIcon.src}`}
                 />
               </SwiperSlide>
@@ -201,6 +208,7 @@ const projects = () => {
                   github='https://github.com/YouJun-IWON/nextjs-blog'
                   type='NextJS / Responsive / DarkMode'
                   img={NextJSBlogProject}
+                  date='2023.06.16 ~ 2023.06.17'
                   icons={`${NextJSIcon.src} / ${Javascripticon.src} / ${TypescriptIcon.src}`}
                 />
               </SwiperSlide>
@@ -213,6 +221,7 @@ const projects = () => {
                   github='https://github.com/YouJun-IWON/Portfolio_site'
                   type='NextJS / Responsive / DarkMode'
                   img={PortfolioProject}
+                  date='2023.08.10 ~ 2023.08.17'
                   icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${MotionFramerIcon.src} / ${AdobeExpressIcon.src}`}
                 />
               </SwiperSlide>
@@ -345,6 +354,7 @@ const projects = () => {
                 link='https://codestates.notion.site/fe0e020d90b0427aa912b92c80cbe939?v=e9275161e140447f894de0d8cf87f2c2&p=50b4f0bb5daf4e49965e64c962df3dca&pm=c'
                 github='https://github.com/codestates-beb/beb-08-BOV'
                 type='Web3 / Project Leader'
+                date='2023.03.06 ~ 2023.03.13'
                 icons={`${ReactIcon.src} / ${MaterialUIIcon.src} / ${EmotionIcon.src} / ${Web3JSIcon.src} / ${HardHatIcon.src} / ${EtherJSIcon.src} / ${SolidityIcon.src} / ${EthereumIcon.src}`}
                 img={openseaProject}
               />
@@ -356,6 +366,7 @@ const projects = () => {
                 link='https://codestates.notion.site/3-e8190ef76f694ef788f41897fc78d9f1?p=d1f20dbd04174a2faefc22bd3318a1c0&pm=c'
                 github='https://github.com/codestates-beb/BEB-08-LiFT'
                 type='Web3 / Project Leader'
+                date='2023.03.29 ~ 2023.04.24'
                 icons={`${NextJSIcon.src} / ${TailwindCSS.src} / ${MantineIcon.src} / ${ReactQueryIcon.src} / ${PrismaIcon.src} / ${Web3JSIcon.src} / ${HardHatIcon.src} / ${EtherJSIcon.src} / ${SolidityIcon.src} / ${WagmiIcon.src} / ${ChainLinkIcon.src} / ${PolygonIcon.src}`}
                 img={dnftProject}
               />
@@ -478,6 +489,7 @@ const ProcessingProject = ({
   Database,
   myOpinion,
   icons,
+  date,
 }: any) => {
   const svgIcons = icons.split(' / ').map((SvgIcon: string, index: number) => (
     <>
@@ -560,6 +572,9 @@ const ProcessingProject = ({
           <div className='my-2 font-medium text-dark dark:text-light sm:text-sm flex gap-3 flex-wrap'>
             {svgIcons}
           </div>
+          <div className='font-medium text-slate-700 dark:text-slate-300'>
+            {date}
+          </div>
           <div className='font-medium text-dark dark:text-light sm:text-sm'>
             {mySummary}
           </div>
@@ -622,7 +637,16 @@ const ProcessingProject = ({
   );
 };
 
-const Project = ({ title, type, img, link, github, summary, icons }: any) => {
+const Project = ({
+  title,
+  type,
+  img,
+  link,
+  github,
+  summary,
+  icons,
+  date,
+}: any) => {
   const svgIcons = icons.split(' / ').map((SvgIcon: string, index: number) => (
     <>
       <div key={index}>
@@ -678,6 +702,10 @@ const Project = ({ title, type, img, link, github, summary, icons }: any) => {
 
         <div className=' font-medium text-dark dark:text-light sm:text-sm flex flex-wrap gap-3'>
           {svgIcons}
+        </div>
+
+        <div className='font-medium mt-2 text-slate-700 dark:text-slate-300'>
+          {date}
         </div>
 
         <div className='my-2 font-medium text-dark dark:text-light sm:text-sm'>
