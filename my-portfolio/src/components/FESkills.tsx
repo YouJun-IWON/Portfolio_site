@@ -11,6 +11,7 @@ import TypescriptIcon from '../../public/images/svgs/skills/typescript-icon-svgr
 import ReactIcon from '../../public/images/svgs/skills/react-svgrepo-com.svg';
 import NextJSIcon from '../../public/images/svgs/skills/nextjs-fill-svgrepo-com.svg';
 import TailwindCSS from '../../public/images/svgs/skills/tailwindcss-icon-svgrepo-com.svg';
+import SCSSUIIcon from '../../public/images/svgs/skills/scss-svgrepo-com.svg';
 import MaterialUIIcon from '../../public/images/svgs/skills/material-ui-svgrepo-com.svg';
 import ReduxIcon from '../../public/images/svgs/skills/redux-svgrepo-com.svg';
 import ZustandIcon from '../../public/images/svgs/skills/CompressJPEG.online_500x500-image.png';
@@ -140,6 +141,15 @@ const FESkills = () => {
           name='TailwindCSS'
           level='intermediate'
           className='shadow-emerald-500'
+        />
+
+        <Skill
+          x='-10vw'
+          y='10vw'
+          source={SCSSUIIcon}
+          name='SCSS'
+          level='intermediate'
+          className='shadow-pink-400'
         />
 
         <Skill

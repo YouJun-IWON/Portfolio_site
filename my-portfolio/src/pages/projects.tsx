@@ -16,6 +16,7 @@ import movieProject from '../../public/images/projects/movie.png';
 import NextJSBlogProject from '../../public/images/projects/Blog.png';
 import DisneyProject from '../../public/images/projects/disney+.png';
 import PortfolioProject from '../../public/images/projects/portfolio.png';
+import YoutubeCloneProject from '../../public/images/projects/youtube.png';
 import openseaProject from '../../public/images/projects/opensea.png';
 import dnftProject from '../../public/images/projects/dnft.png';
 
@@ -225,6 +226,19 @@ const projects = () => {
                   icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${MotionFramerIcon.src} / ${AdobeExpressIcon.src}`}
                 />
               </SwiperSlide>
+
+              <SwiperSlide>
+                <Project
+                  title='Clone Youtube Page'
+                  summary='SCSS 적용 및 학습 / Vite + React 적용 및 학습 / React Context로 변수 처리 / axios instance 활용'
+                  link='https://effortless-tartufo-02141c.netlify.app/'
+                  github='https://github.com/YouJun-IWON/react-sass-youtube-app'
+                  type='Vite + React / Responsive'
+                  img={YoutubeCloneProject}
+                  date='2023.08.28 ~ 2023.09.02'
+                  icons={`${ReactIcon.src} / ${SCSSIcon.src}`}
+                />
+              </SwiperSlide>
             </Swiper>
           </div>
 
@@ -326,6 +340,19 @@ const projects = () => {
                   type='NextJS / Responsive / DarkMode'
                   img={PortfolioProject}
                   icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${MotionFramerIcon.src} / ${AdobeExpressIcon.src}`}
+                />
+              </SwiperSlide>
+
+              <SwiperSlide className='p-3'>
+                <Project
+                  title='Clone Youtube Page'
+                  summary='SCSS 적용 및 학습 / Vite + React 적용 및 학습 / React Context로 변수 처리 / axios instance 활용'
+                  link='https://effortless-tartufo-02141c.netlify.app/'
+                  github='https://github.com/YouJun-IWON/react-sass-youtube-app'
+                  type='Vite + React / Responsive'
+                  img={YoutubeCloneProject}
+                  date='2023.08.28 ~ 2023.09.02'
+                  icons={`${ReactIcon.src} / ${SCSSIcon.src}`}
                 />
               </SwiperSlide>
             </Swiper>
@@ -449,6 +476,7 @@ import TypescriptIcon from '../../public/images/svgs/skills/typescript-icon-svgr
 import ReactIcon from '../../public/images/svgs/skills/react-svgrepo-com.svg';
 import NextJSIcon from '../../public/images/svgs/skills/nextjs-fill-svgrepo-com.svg';
 import TailwindCSS from '../../public/images/svgs/skills/tailwindcss-icon-svgrepo-com.svg';
+import SCSSIcon from '../../public/images/svgs/skills/scss-svgrepo-com.svg';
 import MaterialUIIcon from '../../public/images/svgs/skills/material-ui-svgrepo-com.svg';
 import ReduxIcon from '../../public/images/svgs/skills/redux-svgrepo-com.svg';
 import ZustandIcon from '../../public/images/svgs/skills/CompressJPEG.online_500x500-image.png';
