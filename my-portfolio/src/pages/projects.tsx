@@ -18,10 +18,11 @@ import 'swiper/css/effect-cards';
 
 import { Canvas } from '@react-three/fiber';
 import Blob from '@/components/Blob';
-import OnGoingProjects from '@/components/onGoingProjects';
+import OnGoingProjects from '@/components/OnGoingProjects';
 import ReactProjects from '@/components/ReactProjects';
 import Web3Projects from '@/components/Web3Projects';
 import NextJSProjects from '@/components/NextJSProjects';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -32,7 +33,7 @@ const projects = () => {
         <title>YouJun | Projects</title>
         <meta name='description' content='any description' />
       </Head>
-      {/* <TransitionEffect /> */}
+      <TransitionEffect />
 
       <main className='w-full flex flex-col  items-center justify-center dark:text-light'>
         <Layout className='pt-30 '>
