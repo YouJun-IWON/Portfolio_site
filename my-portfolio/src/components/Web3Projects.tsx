@@ -1,49 +1,14 @@
-import AnimatedText from '@/components/AnimatedText';
 import { GithubIcon } from '@/components/Icons';
-import Layout from '@/components/layout';
-import Head from 'next/head';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 // project Image
-import iwonProject from '../../public/images/projects/Iwon.png';
-import startbucksProject from '../../public/images/projects/starbucks.png';
-import CoinSelectorProject from '../../public/images/projects/coinSeletor.png';
-import ipadProject from '../../public/images/projects/ipad.png';
-import loveProject from '../../public/images/projects/love.png';
-import movieProject from '../../public/images/projects/movie.png';
-import NextJSBlogProject from '../../public/images/projects/Blog.png';
-import DisneyProject from '../../public/images/projects/disney+.png';
-import PortfolioProject from '../../public/images/projects/portfolio.png';
-import YoutubeCloneProject from '../../public/images/projects/youtube.png';
 import openseaProject from '../../public/images/projects/opensea.png';
 import dnftProject from '../../public/images/projects/dnft.png';
 
 import { motion } from 'framer-motion';
-import TransitionEffect from '@/components/TransitionEffect';
-import { FaDatabase } from 'react-icons/fa';
-import { BsFillChatDotsFill } from 'react-icons/bs';
-
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  EffectCoverflow,
-  Autoplay,
-} from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import 'swiper/css/autoplay';
-import 'swiper/css/a11y';
-import 'swiper/css/effect-cards';
-
-import { Canvas } from '@react-three/fiber';
-import Blob from '@/components/Blob';
 
 const FramerImage = motion(Image);
 
@@ -135,8 +100,6 @@ import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08
 import EthereumIcon from '../../public/images/svgs/skills/ethereum-seeklogo.com.svg';
 import ChainLinkIcon from '../../public/images/svgs/skills/chainlink-link-logo.svg';
 import PolygonIcon from '../../public/images/svgs/skills/polygon-matic-logo (1).svg';
-import ReactProjects from '@/components/ReactProjects';
-import OnGoingProjects from '@/components/onGoingProjects';
 
 const Project = ({
   title,

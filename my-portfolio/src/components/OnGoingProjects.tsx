@@ -1,4 +1,3 @@
-
 import { GithubIcon } from '@/components/Icons';
 
 import Image from 'next/image';
@@ -8,11 +7,9 @@ import React from 'react';
 // project Image
 import iwonProject from '../../public/images/projects/Iwon.png';
 
-
 import { motion } from 'framer-motion';
 import { FaDatabase } from 'react-icons/fa';
 import { BsFillChatDotsFill } from 'react-icons/bs';
-
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -22,33 +19,28 @@ import 'swiper/css/autoplay';
 import 'swiper/css/a11y';
 import 'swiper/css/effect-cards';
 
-
-
 const FramerImage = motion(Image);
 
 const OnGoingProjects = () => {
   return (
     <>
-          <div className='mb-20'>
-            <span className='font-bold text-4xl md:text-3xl mb-4 inline-block'>
-              Ongoing project
-            </span>
-            <ProcessingProject
-              title='Contract NFT Market'
-              summary='useForm(Minimize re-rendering), TanStack Query(useMutation, useQuery)등을 사용해 웹페이지 최적화를 진행 / SWR으로 long polling 방식의 chat 시스템을 구축 / React18의 Suspense on the Server, Transition 적용'
-              link='https://iwon-page-rose.vercel.app/'
-              github='https://github.com/YouJun-IWON/iwon-page'
-              type='Web3 / Full Stack / Responsive / Solo'
-              img={iwonProject}
-              date='2023.06.26 ~ present'
-              Database='https://www.prismabuilder.io/schemas/New%20schema/graph'
-              myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / Transaction, Application 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중'
-              icons={`${TypescriptIcon.src} / ${ReactIcon.src} / ${NextJSIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src} / ${MotionFramerIcon.src} / ${ReactQueryIcon.src} / ${SWRIcon.src} / ${PrismaIcon.src} / ${MySQLIcon.src} / ${HardHatIcon.src} / ${MoralisIcon.src}`}
-            />
-          </div>
-
-  
-     
+      <div className='mb-20'>
+        <span className='font-bold text-4xl md:text-3xl mb-4 inline-block'>
+          Ongoing project
+        </span>
+        <ProcessingProject
+          title='Contract NFT Market'
+          summary='useForm(Minimize re-rendering), TanStack Query(useMutation, useQuery)등을 사용해 웹페이지 최적화를 진행 / SWR으로 long polling 방식의 chat 시스템을 구축 / React18의 Suspense on the Server, Transition 적용'
+          link='https://iwon-page-rose.vercel.app/'
+          github='https://github.com/YouJun-IWON/iwon-page'
+          type='Web3 / Full Stack / Responsive / Solo'
+          img={iwonProject}
+          date='2023.06.26 ~ present'
+          Database='https://www.prismabuilder.io/schemas/New%20schema/graph'
+          myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / Transaction, Application 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중'
+          icons={`${TypescriptIcon.src} / ${ReactIcon.src} / ${NextJSIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src} / ${MotionFramerIcon.src} / ${ReactQueryIcon.src} / ${SWRIcon.src} / ${PrismaIcon.src} / ${MySQLIcon.src} / ${HardHatIcon.src} / ${MoralisIcon.src}`}
+        />
+      </div>
     </>
   );
 };
@@ -93,7 +85,6 @@ import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08
 import EthereumIcon from '../../public/images/svgs/skills/ethereum-seeklogo.com.svg';
 import ChainLinkIcon from '../../public/images/svgs/skills/chainlink-link-logo.svg';
 import PolygonIcon from '../../public/images/svgs/skills/polygon-matic-logo (1).svg';
-import ReactProjects from '@/components/ReactProjects';
 
 const ProcessingProject = ({
   type,
@@ -252,4 +243,3 @@ const ProcessingProject = ({
     </>
   );
 };
-

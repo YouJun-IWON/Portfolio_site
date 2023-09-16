@@ -16,7 +16,6 @@ import { motion } from 'framer-motion';
 import {
   Navigation,
   Pagination,
-  Scrollbar,
   A11y,
   EffectCoverflow,
   Autoplay,
@@ -198,7 +197,6 @@ import FigmaIcon from '../../public/images/svgs/skills/Figma-logo.svg';
 import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08-16 at 1.55.17 PM.png';
 import EthereumIcon from '../../public/images/svgs/skills/ethereum-seeklogo.com.svg';
 import ChainLinkIcon from '../../public/images/svgs/skills/chainlink-link-logo.svg';
-import PolygonIcon from '../../public/images/svgs/skills/polygon-matic-logo (1).svg';
 import AppWriteIcon from '../../public/images/svgs/skills/appwrite-seeklogo.com.svg';
 
 const Project = ({
