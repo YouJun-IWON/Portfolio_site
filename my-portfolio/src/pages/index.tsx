@@ -79,7 +79,7 @@ export default function Home() {
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
-                  href='https://candle-keyboard-dd4.notion.site/Web3-Developer-253efdad5e5d4385b9e2a80e4b9d19c7?pvs=4'
+                  href='https://candle-keyboard-dd4.notion.site/Hi-I-m-Web-Developer-You-Jun-5dbff8fe86e34da88235a88949bdd5a3?pvs=4'
                   target={'_blank'}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold   dark:bg-light md:p-2 md:px-4 md:text-base
                   animate-bounce 
