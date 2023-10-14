@@ -157,13 +157,22 @@ const Experience = () => {
           />
 
           <Details
-            position='Collegium Sailor / Contributor'
+            position='Collegium Sailor / Near BOS Contributor'
             company='Near Protocol / BOS'
             companyLink='https://near.org/'
             time='2023.08-2023.10'
             address=''
             blockchainLink='https://x.com/ludium_official/status/1706263961166049702?s=20'
-            work='Ludium에서 진행하는 Web3 Contributor 프로그램에 참가. 교육 수료 후 near BOS contest에 참가하여 2등 수상'
+            work='Ludium에서 진행하는 Web3 Contributor 프로그램에 참가 / 교육 수료 후 near BOS contest에 참가하여 2등 수상'
+          />
+
+          <Details
+            position='Member'
+            company='Blockchain At YONSEI (BAY)'
+            companyLink='https://www.blockchainatyonsei.com/'
+            time='2023.09-Present'
+            address='서울특별시 서대문구 연세로 50 연세대학교'
+            work='STO POC 의 Product 팀에 소속 (개발 진행 중) / GBIC Hackathon 본선 진출 확정 (개발 진행 중)'
           />
 
           {/* <Details

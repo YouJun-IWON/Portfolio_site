@@ -114,7 +114,7 @@ const NextJSProjects = () => {
               type='Responsive / MDX'
               img={CatchitProject}
               date='2023.09.29 ~ present'
-              icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${Supabase.src} / ${ContentLayer.src}`}
+              icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${Supabase.src} / ${ContentLayer.src} / ${MDX.src}`}
             />
           </SwiperSlide>
         </Swiper>
@@ -174,7 +174,7 @@ const NextJSProjects = () => {
               type='Responsive / MDX'
               img={CatchitProject}
               date='2023.09.29 ~ present'
-              icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${Supabase.src} / ${ContentLayer.src}`}
+              icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${Supabase.src} / ${ContentLayer.src} / ${MDX.src}`}
             />
           </SwiperSlide>
         </Swiper>
@@ -225,6 +225,7 @@ import ChainLinkIcon from '../../public/images/svgs/skills/chainlink-link-logo.s
 import AppWriteIcon from '../../public/images/svgs/skills/appwrite-seeklogo.com.svg';
 import Supabase from '../../public/images/svgs/skills/supabase-seeklogo.com.svg';
 import ContentLayer from '../../public/images/svgs/skills/contentlayer.png';
+import MDX from '../../public/images/svgs/skills/mdx-seeklogo.com.svg';
 
 const Project = ({
   title,
