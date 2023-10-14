@@ -47,11 +47,16 @@ const Details = ({
         <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
           {time} | {address}
         </span>
-        <br/>
-        {blockchainLink && <Link href={blockchainLink} target='_blank' className='text-blue-500 hover:underline-offset-1 hover:underline'>
-              🔗 Study-Note
-        </Link>
-}
+        <br />
+        {blockchainLink && (
+          <Link
+            href={blockchainLink}
+            target='_blank'
+            className='text-blue-500 hover:underline-offset-1 hover:underline'
+          >
+            🔗 Material Link
+          </Link>
+        )}
         <p className='font-medium w-full md:text-sm'>{work}</p>
       </motion.div>
     </li>
@@ -104,7 +109,7 @@ const Experience = () => {
             address='Aviation maintenance battalion'
             work='12000km 무사고 운전 경력'
           />
-{/* 
+          {/* 
 <Details
             position='Trainer'
             company='(주) 팀원짐 헬스장'
@@ -130,7 +135,7 @@ const Experience = () => {
             time='2022-2023'
             address='서울특별시 강남구 테헤란로 415'
             blockchainLink='https://candle-keyboard-dd4.notion.site/Blockchain-bddca30150574398a2f00a829da37011'
-            work="Bitcoin whitepaper / Ethereum whitepaper / DLT / DDB /Wallet & Account / UniSwap / Consensus Algorithms / Merkle tree / Tap root / Bloom Filter / DAG / DHT / IPFS / DID / SSI / Solidity / Security / Web3.js / Infura / Trilemma / Zero-Knowledge Proofs ..."
+            work='Bitcoin whitepaper / Ethereum whitepaper / DLT / DDB /Wallet & Account / UniSwap / Consensus Algorithms / Merkle tree / Tap root / Bloom Filter / DAG / DHT / IPFS / DID / SSI / Solidity / Security / Web3.js / Infura / Trilemma / Zero-Knowledge Proofs ...'
           />
 
           <Details
@@ -139,7 +144,26 @@ const Experience = () => {
             companyLink='https://iwon-page-rose.vercel.app/'
             time='2023-Present'
             address=''
-            work="특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중"
+            work='특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중'
+          />
+
+          <Details
+            position='Development Team Leader '
+            company='Univer / 유니버'
+            companyLink='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
+            time='2023.08-Present'
+            address='서울시 동대문구 경희대로 26 삼의원창업센터 204호'
+            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중'
+          />
+
+          <Details
+            position='Collegium Sailor / Contributor'
+            company='Near Protocol / BOS'
+            companyLink='https://near.org/'
+            time='2023.08-2023.10'
+            address=''
+            blockchainLink='https://x.com/ludium_official/status/1706263961166049702?s=20'
+            work='Ludium에서 진행하는 Web3 Contributor 프로그램에 참가. 교육 수료 후 near BOS contest에 참가하여 2등 수상'
           />
 
           {/* <Details

@@ -7,6 +7,7 @@ import React from 'react';
 // project Image
 import openseaProject from '../../public/images/projects/opensea.png';
 import dnftProject from '../../public/images/projects/dnft.png';
+import NearDnftProject from '../../public/images/projects/NearDNFTComponent.png';
 
 import { motion } from 'framer-motion';
 
@@ -16,7 +17,7 @@ const Web3Projects = () => {
   return (
     <>
       <span className='font-bold text-4xl md:text-3xl mb-4 inline-block mt-20'>
-        Web3 Projects with Team (Codestates)
+        Web3 Projects with Team
       </span>
       <div className='grid grid-cols-12 gap-24  gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
         {/* <div className='col-span-12'>
@@ -53,6 +54,18 @@ const Web3Projects = () => {
             date='2023.03.29 ~ 2023.04.24'
             icons={`${NextJSIcon.src} / ${TailwindCSS.src} / ${MantineIcon.src} / ${ReactQueryIcon.src} / ${PrismaIcon.src} / ${Web3JSIcon.src} / ${HardHatIcon.src} / ${EtherJSIcon.src} / ${SolidityIcon.src} / ${WagmiIcon.src} / ${ChainLinkIcon.src} / ${PolygonIcon.src}`}
             img={dnftProject}
+          />
+        </div>
+        <div className='col-span-6 sm:col-span-12'>
+          <Project
+            title='DNFT Components in Near BOS'
+            summary='Near BOS 생태계에서 DNFT를 만들 수 있는 Component 제작  / Coin price, Weather, Near Social 데이터에 따라 변화되는 DNFT 제작 가능 / 만든 DNFT를 확인할 수 있는 Component 제작 / 오프 체인(Weather, Coin Price), 온체인(Near Social) 데이터에 따라 NFT가 다르게 보여짐 '
+            link='https://near.org#/near/widget/ComponentDetailsPage?src=7649ed19fe15dead3bb479bbbf3acd3a2b337eead0999673d20b9935e4d60d8e/widget/dNFTMinting'
+            github='https://github.com/YouJun-IWON/BOS-Contest'
+            type='Web3 / Near BOS / Solo'
+            date='2023.09.14 ~ 2023.09.21'
+            icons={`${NearIcon.src} / ${StyledComponentsIcon.src} / ${ReactIcon.src}`}
+            img={NearDnftProject}
           />
         </div>
       </div>
@@ -100,6 +113,7 @@ import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08
 import EthereumIcon from '../../public/images/svgs/skills/ethereum-seeklogo.com.svg';
 import ChainLinkIcon from '../../public/images/svgs/skills/chainlink-link-logo.svg';
 import PolygonIcon from '../../public/images/svgs/skills/polygon-matic-logo (1).svg';
+import NearIcon from '../../public/images/svgs/skills/near-protocol-near-logo.svg';
 
 const Project = ({
   title,

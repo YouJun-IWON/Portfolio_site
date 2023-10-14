@@ -10,6 +10,7 @@ import NextJSBlogProject from '../../public/images/projects/Blog.png';
 
 import PortfolioProject from '../../public/images/projects/portfolio.png';
 import YouRelloProject from '../../public/images/projects/YouRello.png';
+import CatchitProject from '../../public/images/projects/CatchitWeb.png';
 
 import { motion } from 'framer-motion';
 
@@ -104,6 +105,18 @@ const NextJSProjects = () => {
               icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src} / ${AppWriteIcon.src}`}
             />
           </SwiperSlide>
+          <SwiperSlide>
+            <Project
+              title='Catchit Application Marketing Page (진행중..)'
+              summary='MDX 와 Content Layer을 사용해서 웹페이지 구현 / Supabase를 통한 Postgres database 적용 / appwrite을 활용한 Backend DB 구축 / NextUI 와 Tailwindcss, css를 활용한 디자인 구현 / 앱 상품 기획과 협업하여 업데이트 진행중'
+              link='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
+              github='https://github.com/YouJun-IWON/Catchit-Marketing-Web'
+              type='Responsive / MDX'
+              img={CatchitProject}
+              date='2023.09.29 ~ present'
+              icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${Supabase.src} / ${ContentLayer.src}`}
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
 
@@ -152,6 +165,18 @@ const NextJSProjects = () => {
               icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src} / ${AppWriteIcon.src}`}
             />
           </SwiperSlide>
+          <SwiperSlide className='p-3'>
+            <Project
+              title='Catchit Application Marketing Page (진행중..)'
+              summary='MDX 와 Content Layer을 사용해서 웹페이지 구현 / Supabase를 통한 Postgres database 적용 / appwrite을 활용한 Backend DB 구축 / NextUI 와 Tailwindcss, css를 활용한 디자인 구현 / 앱 상품 기획과 협업하여 업데이트 진행중'
+              link='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
+              github='https://github.com/YouJun-IWON/Catchit-Marketing-Web'
+              type='Responsive / MDX'
+              img={CatchitProject}
+              date='2023.09.29 ~ present'
+              icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${Supabase.src} / ${ContentLayer.src}`}
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
     </>
@@ -198,6 +223,8 @@ import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08
 import EthereumIcon from '../../public/images/svgs/skills/ethereum-seeklogo.com.svg';
 import ChainLinkIcon from '../../public/images/svgs/skills/chainlink-link-logo.svg';
 import AppWriteIcon from '../../public/images/svgs/skills/appwrite-seeklogo.com.svg';
+import Supabase from '../../public/images/svgs/skills/supabase-seeklogo.com.svg';
+import ContentLayer from '../../public/images/svgs/skills/contentlayer.png';
 
 const Project = ({
   title,
