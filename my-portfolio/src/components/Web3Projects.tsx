@@ -8,6 +8,7 @@ import React from 'react';
 import openseaProject from '../../public/images/projects/opensea.png';
 import dnftProject from '../../public/images/projects/dnft.png';
 import NearDnftProject from '../../public/images/projects/NearDNFTComponent.png';
+import GBIC from '../../public/images/projects/GBIC.png';
 
 import { motion } from 'framer-motion';
 
@@ -66,6 +67,18 @@ const Web3Projects = () => {
             date='2023.09.14 ~ 2023.09.21'
             icons={`${NearIcon.src} / ${StyledComponentsIcon.src} / ${ReactIcon.src}`}
             img={NearDnftProject}
+          />
+        </div>
+        <div className='col-span-6 sm:col-span-12'>
+          <Project
+            title='DNFT Stamp Board Ticket Platform'
+            summary='블록체인 기술을 활용하여 인천시의 다양한 문화를 보다 즐겁게 누릴 수 있는 NFT 스탬프 아이디어 / erc1155를 아이디어에 맞춰 제작 했으면 프론트를 전담함 / 대납 서비스와 웹에서 온체인 데이터를 읽어 보다 직관적인 ui로 보여줘서 사용자들이 기존 web2 처럼 편하게 사용할 수 있도록 구성 / 사용자가 쉽고 빠르게 자신만의 stamp 티켓을 여러개 구성 및 관리 할 수 있도록 제작 / 멀티 지갑 연결로 누구나 쉽게 접속 가능하게 구현'
+            link='https://gbic-hackathon.vercel.app/'
+            github='https://github.com/YouJun-IWON/GBIC-hackathon'
+            type='Web3 / Polygon / erc1155 / GBIC 2023 Hackathon / Responsive'
+            date='2023.10.30 ~ 2023.10.31'
+            icons={`${NextJSIcon.src} / ${ReactIcon.src} / ${TypescriptIcon.src} / ${SolidityIcon.src} / ${EtherJSIcon.src} / ${PolygonIcon.src} / ${MoralisIcon.src} / ${HardHatIcon.src} / ${WagmiIcon.src} / ${MotionFramerIcon.src} / ${TailwindCSS.src}`}
+            img={GBIC}
           />
         </div>
       </div>

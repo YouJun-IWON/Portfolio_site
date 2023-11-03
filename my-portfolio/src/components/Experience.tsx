@@ -125,7 +125,7 @@ const Experience = () => {
             companyLink='https://brunch.co.kr/@iwonyoujun'
             time='2022-2023'
             address=''
-            work="50+편의 글 기재 / 약 4000+ 명의 독자 / 객관적인 과학적, 사회적, 인류역사적 사실을 논리적으로 전개하여 추상적이고 주관적인 존재들을 정의내리는 과정에 대한 내용/ '나의 삶을 생각하기론' 이라는 제목의 작품 출품 / 2번째 작품(가명: '내가 생각하기론') 연재중 "
+            work="50+편의 글 기재 / 약 5000+ 명의 독자 / 객관적인 과학적, 사회적, 인류역사적 사실을 논리적으로 전개하여 추상적이고 주관적인 존재들을 정의내리는 과정에 대한 내용/ '나의 삶을 생각하기론' 이라는 제목의 작품 출품 / 2번째 작품(가명: '내가 생각하기론') 연재중 "
           />
 
           <Details
@@ -144,7 +144,7 @@ const Experience = () => {
             companyLink='https://iwon-page-rose.vercel.app/'
             time='2023-Present'
             address=''
-            work='특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중'
+            work='특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중 (대기 상태)'
           />
 
           <Details
@@ -153,7 +153,7 @@ const Experience = () => {
             companyLink='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
             time='2023.08-Present'
             address='서울시 동대문구 경희대로 26 삼의원창업센터 204호'
-            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중'
+            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중 (대기 상태)'
           />
 
           <Details
@@ -172,7 +172,17 @@ const Experience = () => {
             companyLink='https://www.blockchainatyonsei.com/'
             time='2023.09-Present'
             address='서울특별시 서대문구 연세로 50 연세대학교'
-            work='STO POC 의 Product 팀에 소속 (개발 진행 중) / GBIC Hackathon 본선 진출 확정 (개발 진행 중)'
+            work='STO POC 의 Product 팀에 소속 (개발 진행 중...), Web3mon 이라는 NFT Game 프론트 개발 중'
+          />
+
+          <Details
+            position='Leader'
+            company='GBIC Incheon Hackathon'
+            companyLink='https://gbichackathon.com/'
+            time='2023.10.30-2023.10.31'
+            address='인천 송도 컨벤시아'
+            blockchainLink='https://www.hankyung.com/article/202311015054O'
+            work='대상 수상 / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
           />
 
           {/* <Details

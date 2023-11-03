@@ -26,7 +26,7 @@ const OnGoingProjects = () => {
     <>
       <div className='mb-20'>
         <span className='font-bold text-4xl md:text-3xl mb-4 inline-block'>
-          Ongoing project
+          Ongoing Web3 project with Solo
         </span>
         <ProcessingProject
           title='Contract NFT Market'
