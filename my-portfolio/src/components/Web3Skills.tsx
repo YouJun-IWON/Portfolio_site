@@ -57,7 +57,7 @@ const Web3Skills = () => {
           y='10vw'
           source={SolidityIcon}
           name='Solidity'
-          level='Basic'
+          level='Intermediate'
           className='shadow-zinc-700'
         />
 
@@ -77,7 +77,7 @@ const Web3Skills = () => {
           y='10vw'
           source={EtherJSIcon}
           name='Ethers.js'
-          level='Basic'
+          level='Intermediate'
           className='shadow-indigo-700 '
         />
 
@@ -97,7 +97,7 @@ const Web3Skills = () => {
           y='10vw'
           source={HardHatIcon}
           name='HardHat'
-          level='Basic'
+          level='Intermediate'
           className='shadow-yellow-500 '
         />
 
@@ -117,7 +117,7 @@ const Web3Skills = () => {
           y='10vw'
           source={WagmiIcon}
           name='Wagmi'
-          level='Basic'
+          level='Intermediate'
           className='shadow-gray-500'
         />
      
