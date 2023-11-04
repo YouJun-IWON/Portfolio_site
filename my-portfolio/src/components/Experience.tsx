@@ -84,12 +84,71 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
-            position='Industrial Engineering'
-            company='Gachon univ.'
-            companyLink='https://www.gachon.ac.kr/kor/index.do'
-            time='2017-마지막 학기'
-            address='경기도 성남시 수정구 성남대로 1342'
-            work='실용통계학 / 경영학원론 / 웹프로그래밍 / 정보사회의 윤리 / 고전과 미디어 스토리 텔링 /  산업경영공학개론 / 경영수학 / 프로그래밍언어 / 과학기술글쓰기 / 물류관리 / 경제학원론 / 논리적사고 / 서비스공학 / 생산운영관리 / 인간공학 및 실험 / 로봇공학 / 소프트웨어 생태계 / 문제해결기법(c언어) / 생산계획 및 통제 / 품질실험계획실무 / 데이터베이스시스템 / 고객관계관리 / motion&time study / 산업공학 종합설계 / 기술경영 / 데이터 엔지니어링 / 로지스틱공학'
+            position='Leader'
+            company='GBIC Incheon Hackathon'
+            companyLink='https://gbichackathon.com/'
+            time='2023.10.30-2023.10.31'
+            address='인천 송도 컨벤시아'
+            blockchainLink='https://www.hankyung.com/article/202311015054O'
+            work='대상 수상 / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
+          />
+          <Details
+            position='Member'
+            company='Blockchain At YONSEI (BAY)'
+            companyLink='https://www.blockchainatyonsei.com/'
+            time='2023.09-Present'
+            address='서울특별시 서대문구 연세로 50 연세대학교'
+            work='STO POC 의 Product 팀에 소속 (개발 진행 중...) / Web3mon 이라는 NFT Game 기획 및 프론트 개발 중 / LSDfi Research team'
+          />
+          <Details
+            position='Collegium Sailor / Near BOS Contributor'
+            company='Near Protocol / BOS'
+            companyLink='https://near.org/'
+            time='2023.08-2023.10'
+            address=''
+            blockchainLink='https://x.com/ludium_official/status/1706263961166049702?s=20'
+            work='Ludium에서 진행하는 Web3 Contributor 프로그램에 참가 / 교육 수료 후 near BOS contest에 참가하여 2등 수상'
+          />
+          <Details
+            position='Development Team Leader '
+            company='Univer / 유니버'
+            companyLink='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
+            time='2023.08-Present'
+            address='서울시 동대문구 경희대로 26 삼의원창업센터 204호'
+            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중 (대기 상태)'
+          />
+          <Details
+            position='entrepreneur'
+            company='IWON'
+            companyLink='https://iwon-page-rose.vercel.app/'
+            time='2023-Present'
+            address=''
+            work='특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중 (대기 상태)'
+          />
+          <Details
+            position='Project Leader'
+            company='codestates blockchain course'
+            companyLink='https://www.codestates.com/course/blockchain'
+            time='2022-2023'
+            address='서울특별시 강남구 테헤란로 415'
+            blockchainLink='https://candle-keyboard-dd4.notion.site/Blockchain-bddca30150574398a2f00a829da37011'
+            work='Bitcoin whitepaper / Ethereum whitepaper / DLT / DDB /Wallet & Account / UniSwap / Consensus Algorithms / Merkle tree / Tap root / Bloom Filter / DAG / DHT / IPFS / DID / SSI / Solidity / Security / Web3.js / Infura / Trilemma / Zero-Knowledge Proofs ...'
+          />
+          <Details
+            position='Brunch Writer'
+            company='Kakao Corp.'
+            companyLink='https://brunch.co.kr/@iwonyoujun'
+            time='2022-2023'
+            address=''
+            work="50+편의 글 기재 / 약 5000+ 명의 독자 / 객관적인 과학적, 사회적, 인류역사적 사실을 논리적으로 전개하여 추상적이고 주관적인 존재들을 정의내리는 과정에 대한 내용/ '나의 삶을 생각하기론' 이라는 제목의 작품 출품 / 2번째 작품(가명: '내가 생각하기론') 연재중 "
+          />
+          <Details
+            position='driver'
+            company='military service'
+            companyLink='#'
+            time='2019-2021'
+            address='Aviation maintenance battalion'
+            work='12000km 무사고 운전 경력'
           />
 
           <Details
@@ -102,13 +161,14 @@ const Experience = () => {
           />
 
           <Details
-            position='driver'
-            company='military service'
-            companyLink='#'
-            time='2019-2021'
-            address='Aviation maintenance battalion'
-            work='12000km 무사고 운전 경력'
+            position='Industrial Engineering'
+            company='Gachon univ.'
+            companyLink='https://www.gachon.ac.kr/kor/index.do'
+            time='2017-마지막 학기'
+            address='경기도 성남시 수정구 성남대로 1342'
+            work='실용통계학 / 경영학원론 / 웹프로그래밍 / 정보사회의 윤리 / 고전과 미디어 스토리 텔링 /  산업경영공학개론 / 경영수학 / 프로그래밍언어 / 과학기술글쓰기 / 물류관리 / 경제학원론 / 논리적사고 / 서비스공학 / 생산운영관리 / 인간공학 및 실험 / 로봇공학 / 소프트웨어 생태계 / 문제해결기법(c언어) / 생산계획 및 통제 / 품질실험계획실무 / 데이터베이스시스템 / 고객관계관리 / motion&time study / 산업공학 종합설계 / 기술경영 / 데이터 엔지니어링 / 로지스틱공학'
           />
+
           {/* 
 <Details
             position='Trainer'
@@ -118,72 +178,6 @@ const Experience = () => {
             address='경기도 광명시 디지털로17'
             work="근육 근막이완 / 세일즈 교육 / 2, 3분할 운동 / 생활체육 기본 / 식단프로그램 / 전신운동프로그램 교육 이수 및 시험 통과 / 바디 프로필 사진 촬영"
           /> */}
-
-          <Details
-            position='Brunch Writer'
-            company='Kakao Corp.'
-            companyLink='https://brunch.co.kr/@iwonyoujun'
-            time='2022-2023'
-            address=''
-            work="50+편의 글 기재 / 약 5000+ 명의 독자 / 객관적인 과학적, 사회적, 인류역사적 사실을 논리적으로 전개하여 추상적이고 주관적인 존재들을 정의내리는 과정에 대한 내용/ '나의 삶을 생각하기론' 이라는 제목의 작품 출품 / 2번째 작품(가명: '내가 생각하기론') 연재중 "
-          />
-
-          <Details
-            position='Project Leader'
-            company='codestates blockchain course'
-            companyLink='https://www.codestates.com/course/blockchain'
-            time='2022-2023'
-            address='서울특별시 강남구 테헤란로 415'
-            blockchainLink='https://candle-keyboard-dd4.notion.site/Blockchain-bddca30150574398a2f00a829da37011'
-            work='Bitcoin whitepaper / Ethereum whitepaper / DLT / DDB /Wallet & Account / UniSwap / Consensus Algorithms / Merkle tree / Tap root / Bloom Filter / DAG / DHT / IPFS / DID / SSI / Solidity / Security / Web3.js / Infura / Trilemma / Zero-Knowledge Proofs ...'
-          />
-
-          <Details
-            position='entrepreneur'
-            company='IWON'
-            companyLink='https://iwon-page-rose.vercel.app/'
-            time='2023-Present'
-            address=''
-            work='특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중 (대기 상태)'
-          />
-
-          <Details
-            position='Development Team Leader '
-            company='Univer / 유니버'
-            companyLink='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
-            time='2023.08-Present'
-            address='서울시 동대문구 경희대로 26 삼의원창업센터 204호'
-            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중 (대기 상태)'
-          />
-
-          <Details
-            position='Collegium Sailor / Near BOS Contributor'
-            company='Near Protocol / BOS'
-            companyLink='https://near.org/'
-            time='2023.08-2023.10'
-            address=''
-            blockchainLink='https://x.com/ludium_official/status/1706263961166049702?s=20'
-            work='Ludium에서 진행하는 Web3 Contributor 프로그램에 참가 / 교육 수료 후 near BOS contest에 참가하여 2등 수상'
-          />
-
-          <Details
-            position='Member'
-            company='Blockchain At YONSEI (BAY)'
-            companyLink='https://www.blockchainatyonsei.com/'
-            time='2023.09-Present'
-            address='서울특별시 서대문구 연세로 50 연세대학교'
-            work='STO POC 의 Product 팀에 소속 (개발 진행 중...), Web3mon 이라는 NFT Game 프론트 개발 중'
-          />
-
-          <Details
-            position='Leader'
-            company='GBIC Incheon Hackathon'
-            companyLink='https://gbichackathon.com/'
-            time='2023.10.30-2023.10.31'
-            address='인천 송도 컨벤시아'
-            blockchainLink='https://www.hankyung.com/article/202311015054O'
-            work='대상 수상 / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
-          />
 
           {/* <Details
             position='Software Engineer'

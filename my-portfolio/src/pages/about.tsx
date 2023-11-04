@@ -121,7 +121,7 @@ const about = () => {
             <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 md:items-center md:gap-10 md:order-3'>
               <div className='flex flex-col items-end justify-center xl:items-center'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                  <AnimatedNumbers value={89}></AnimatedNumbers>+
+                  <AnimatedNumbers value={92}></AnimatedNumbers>+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>
                   PageSpeed Insights Score

@@ -94,7 +94,7 @@ const FESkills = () => {
           y='10vw'
           source={TypescriptIcon}
           name='Typescript'
-          level='intermediate'
+          level='Advanced'
           className='shadow-blue-600'
         />
 
@@ -112,7 +112,7 @@ const FESkills = () => {
           y='10vw'
           source={NextJSIcon}
           name='NextJS'
-          level='intermediate'
+          level='Advanced'
           className='shadow-gray-500'
         />
 
@@ -139,7 +139,7 @@ const FESkills = () => {
           y='10vw'
           source={TailwindCSS}
           name='TailwindCSS'
-          level='intermediate'
+          level='Advanced'
           className='shadow-emerald-500'
         />
 

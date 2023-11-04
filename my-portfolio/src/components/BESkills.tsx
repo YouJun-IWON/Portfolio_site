@@ -12,6 +12,7 @@ import NestJSIcon from '../../public/images/svgs/skills/nestjs-svgrepo-com.svg';
 import MySQLIcon from '../../public/images/svgs/skills/mysql-svgrepo-com.svg';
 import MongoDBIcon from '../../public/images/svgs/skills/mongo-svgrepo-com.svg';
 import RedisIcon from '../../public/images/svgs/skills/redis-svgrepo-com.svg';
+import PostgresqlIcon from '../../public/images/svgs/skills/postgresql-icon.svg';
 
 const Skill = ({ name, x, y, level, source, className }: any) => {
   return (
@@ -105,12 +106,21 @@ const BESkills = () => {
           className='shadow-teal-700'
         />
 
+<Skill
+          x='10vw'
+          y='10vw'
+          source={PostgresqlIcon}
+          name='Postgresql'
+          level='Intermediate'
+          className='shadow-cyan-800'
+        />
+
         <Skill
           x='10vw'
           y='10vw'
           source={MongoDBIcon}
           name='MongoDB'
-          level='Basic'
+          level='Intermediate'
           className='shadow-green-500'
         />
 
