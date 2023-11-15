@@ -108,7 +108,7 @@ const NextJSProjects = () => {
           <SwiperSlide>
             <Project
               title='Catchit Application Marketing Page (대기중..)'
-              summary='MDX 와 Content Layer을 사용해서 웹페이지 구현 / Supabase를 통한 Postgres database 적용 / appwrite을 활용한 Backend DB 구축 / NextUI 와 Tailwindcss, css를 활용한 디자인 구현 / 앱 상품 기획과 협업하여 업데이트 진행중'
+              summary='MDX 와 Content Layer을 사용해서 웹페이지 구현 (속도 및 SEO 최적화) / Supabase를 통한 Postgres database 적용 / NextUI 와 Tailwindcss, css를 활용한 디자인 구현 / 앱 상품 기획과 협업하여 업데이트 진행중'
               link='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
               github='https://github.com/YouJun-IWON/Catchit-Marketing-Web'
               type='Responsive / MDX'
