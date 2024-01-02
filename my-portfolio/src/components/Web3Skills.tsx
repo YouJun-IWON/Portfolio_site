@@ -12,9 +12,6 @@ import HardHatIcon from '../../public/images/svgs/skills/hardhat-seeklogo.com.sv
 import TruffleIcon from '../../public/images/svgs/skills/truffle-seeklogo.com.svg';
 import WagmiIcon from '../../public/images/svgs/skills/wagmii.png';
 
-
-
-
 const Skill = ({ name, x, y, level, source, className }: any) => {
   return (
     <motion.div
@@ -61,8 +58,6 @@ const Web3Skills = () => {
           className='shadow-zinc-700'
         />
 
-      
-
         <Skill
           x='-10vw'
           y='10vw'
@@ -81,7 +76,7 @@ const Web3Skills = () => {
           className='shadow-indigo-700 '
         />
 
-<Skill
+        <Skill
           x='-10vw'
           y='10vw'
           source={Web3JSIcon}
@@ -90,9 +85,7 @@ const Web3Skills = () => {
           className='shadow-orange-500'
         />
 
-
-
-<Skill
+        <Skill
           x='-10vw'
           y='10vw'
           source={HardHatIcon}
@@ -101,8 +94,7 @@ const Web3Skills = () => {
           className='shadow-yellow-500 '
         />
 
-
-<Skill
+        <Skill
           x='-10vw'
           y='10vw'
           source={TruffleIcon}
@@ -111,8 +103,7 @@ const Web3Skills = () => {
           className='shadow-amber-900'
         />
 
-
-<Skill
+        <Skill
           x='-10vw'
           y='10vw'
           source={WagmiIcon}
@@ -120,7 +111,6 @@ const Web3Skills = () => {
           level='Intermediate'
           className='shadow-gray-500'
         />
-     
 
         {/* <motion.div
           className='flex rounded-full font-semibold bg-dark mt-10 text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2 z-10'

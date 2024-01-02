@@ -89,7 +89,7 @@ const Experience = () => {
             companyLink='https://gbichackathon.com/'
             time='2023.10.30-2023.10.31'
             address='인천 송도 컨벤시아'
-            blockchainLink='https://www.hankyung.com/article/202311015054O'
+            blockchainLink='https://candle-keyboard-dd4.notion.site/DNFT-Ticket-Platform-5aa6658157324768aab0e0ccc7e755b3?pvs=4'
             work='대상 수상 / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
           />
           <Details

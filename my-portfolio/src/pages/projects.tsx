@@ -8,14 +8,6 @@ import React from 'react';
 
 import { motion } from 'framer-motion';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import 'swiper/css/autoplay';
-import 'swiper/css/a11y';
-import 'swiper/css/effect-cards';
-
 import { Canvas } from '@react-three/fiber';
 import Blob from '@/components/Blob';
 import OnGoingProjects from '@/components/OnGoingProjects';
@@ -55,9 +47,11 @@ const projects = () => {
 
           <OnGoingProjects />
 
+          <Web3Projects />
+
           <NextJSProjects />
 
-          <Web3Projects />
+        
 
           <ReactProjects />
         </Layout>

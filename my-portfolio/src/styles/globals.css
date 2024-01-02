@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.swiper-button-next:after {
+  transform: translateX(10px);
+}
+.swiper-button-prev:after {
+  transform: translateX(-10px);
+}
