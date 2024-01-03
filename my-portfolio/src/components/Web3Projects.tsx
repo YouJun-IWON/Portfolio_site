@@ -103,7 +103,7 @@ const Web3Projects = () => {
         <SwiperSlide>
           <Project
             title='Youtuber STO POC Platform'
-            summary='연세대 블록체인 학회 프로젝트 / 네이버 D2SF 투자 심의 서류합격, Hashed의 피칭 / Hyperledger Fabric과 연계 / 다자간 상대매매를 위한 호가창 및 주식 그래프 component 구현 / 페이퍼, 디자인, 백엔드 팀과 소통하면서 poc를 위한 아이디어 구체화 중'
+            summary='연세대 블록체인 학회 프로젝트 / 프론트 기획, 디자인, 빌딩 전담 / 네이버 D2SF 투자 심의 서류합격, Hashed의 피칭 / Hyperledger Fabric과 연계 / 다자간 상대매매를 위한 호가창 및 주식 그래프 component 구현 / 페이퍼, 디자인, 백엔드 팀과 소통하면서 poc를 위한 아이디어 구체화 중'
             link='https://youtube-sto-bay.vercel.app/'
             github='https://github.com/YouJun-IWON/Youtube-STO'
             type='Responsive / STO / Web3'
