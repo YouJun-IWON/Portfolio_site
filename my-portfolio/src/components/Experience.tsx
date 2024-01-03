@@ -84,13 +84,43 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
+            position='FrontEnd Developer'
+            company='메리 댕냥스마스'
+            companyLink='https://pets-mas.vercel.app/login'
+            time='2023.12.12-2023.12.23'
+            address='Online'
+            blockchainLink='https://pets-mas.vercel.app/login'
+            work='반려동물 크리스마스 에디션 AI 프로필 생성 서비스 개발 / 디자이너, 기획자, 백엔드 개발자와 소통하여 온전한 서비스로서 배포 및 마케팅 진행 / 130명의 유저 확보'
+          />
+
+          <Details
+            position='FrontEnd Developer'
+            company='XRPL NEW HORIZON Hackathon'
+            companyLink='https://newhorizon.devpost.com/'
+            time='2023.12.03-2023.12.11'
+            address='Online'
+            blockchainLink='https://devpost.com/software/helix-protocol-onestop-defi-gateway-of-xrpl'
+            work='Web3 플랫폼 런치패드 개발 / Ripple의 evm sidechain을 이용해서 Metamask로 Ripple 블록체인에 올라가 있는 web3 프로젝트에 투자 가능한 플랫폼의 프론트 개발'
+          />
+
+          <Details
+            position='Full Stack Developer / Designer / Product Manager'
+            company='Klaymakers 2023 Global Virtual Hackathon'
+            companyLink='https://dorahacks.io/hackathon/klaymakers23/buidl'
+            time='2023.11.20-2023.12.01'
+            address='Online'
+            blockchainLink='https://dorahacks.io/buidl/8274'
+            work='2nd 수상 (상금 10,000$) / 웹소켓 통신을 활용한 NFT Poker 카드 게임을 제작 및 기획'
+          />
+
+          <Details
             position='Leader'
             company='GBIC Incheon Hackathon'
             companyLink='https://gbichackathon.com/'
             time='2023.10.30-2023.10.31'
             address='인천 송도 컨벤시아'
             blockchainLink='https://candle-keyboard-dd4.notion.site/DNFT-Ticket-Platform-5aa6658157324768aab0e0ccc7e755b3?pvs=4'
-            work='대상 수상 / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
+            work='대상 수상 (상금 6,000,000 ￦) / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
           />
           <Details
             position='Member'
@@ -98,16 +128,16 @@ const Experience = () => {
             companyLink='https://www.blockchainatyonsei.com/'
             time='2023.09-Present'
             address='서울특별시 서대문구 연세로 50 연세대학교'
-            work='STO POC 의 Product 팀에 소속 (개발 진행 중...) / Web3mon 이라는 NFT Game 기획 및 프론트 개발 중 / LSDfi Research team'
+            work='STO POC 의 Product 팀에 소속 되어 플랫폼 개발 / LSDfi에서 AAVE 코인 생태계에 관한 리서치 진행 / 2024년 학회 임원 / 연세대 IT 기획 학회(ISSU)랑 연합으로 진행할 프로덕트 빌딩 팀의 팀장 '
           />
           <Details
             position='Collegium Sailor / Near BOS Contributor'
-            company='Near Protocol / BOS'
+            company='Near Protocol / BOS contest'
             companyLink='https://near.org/'
             time='2023.08-2023.10'
             address=''
             blockchainLink='https://x.com/ludium_official/status/1706263961166049702?s=20'
-            work='Ludium에서 진행하는 Web3 Contributor 프로그램에 참가 / 교육 수료 후 near BOS contest에 참가하여 2등 수상'
+            work='2nd 수상 (상금 540 Near) / Ludium에서 진행하는 Web3 Contributor 프로그램에 참가 / 교육 수료 후 near BOS contest에 참가'
           />
           <Details
             position='Development Team Leader '
@@ -115,7 +145,7 @@ const Experience = () => {
             companyLink='https://catchit-marketing-4a7cf7huk-youjun-iwon.vercel.app/'
             time='2023.08-Present'
             address='서울시 동대문구 경희대로 26 삼의원창업센터 204호'
-            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중 (대기 상태)'
+            work='대표 웹사이트 제작 및 Catchit 서비스 앱에 사용자들을 유입시키기 위한 웹 앱 개발 중 / 기업 링크 페이지는 현재 제작 중 / Full Stack 개발자로 근무 중'
           />
           <Details
             position='entrepreneur'
@@ -123,7 +153,7 @@ const Experience = () => {
             companyLink='https://iwon-page-rose.vercel.app/'
             time='2023-Present'
             address=''
-            work='특허 출원 번호: 10-2022-0099680 / Polygon 기반 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중 (대기 상태)'
+            work='contract NFT를 생성하고 사고 팔 수 있는 플랫폼 개발 중 (학회 내에서 구체화 중)'
           />
           <Details
             position='Project Leader'

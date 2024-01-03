@@ -80,8 +80,8 @@ const NextJSProjects = () => {
 
           <SwiperSlide>
             <Project
-              title='Catchit Application Marketing Page'
-              summary='스타트업 Univer 에서 상반기에 출시할 앱의 마케팅 페이지 제작중'
+              title='Catchit Application Marketing / Managing Page'
+              summary='스타트업 Univer 에서 상반기에 출시할 앱의 마케팅 페이지 제작 중 / 앱 개발사와 협력하여 광고를 신청한 점주들이 자신의 아이템을 커스터마이징하고 성과 기록을 확인할 수 있는 기능 제작 중 / 스타트업 주식회사 유니버에서 Full Stack 개발자로 근무 중 '
               link='https://catchit-business.vercel.app/'
               github='https://github.com/YouJun-IWON/Catchit-Marketing-Web'
               type='Responsive'

@@ -25,13 +25,13 @@ const FramerImage = motion(Image);
 const OnGoingProjects = () => {
   return (
     <>
-      <div className='mb-20 flex flex-col gap-10'>
-        <span className='font-bold text-4xl md:text-3xl mb-4 inline-block'>
+      <div className='mb-20 flex flex-col gap-16'>
+        <span className='font-bold text-4xl md:text-3xl inline-block'>
           Projects with Hackathon's Prize 🏆
         </span>
         <ProcessingProject
           title='NFT Collection Poker Game KlayOne (🥈 2nd 수상작)'
-          summary='Klaytn의 NFT Collection을 활용하여 NFT Poker 카드를 생성하고 해당 카드로 게임을 할 수 있는 플랫폼 / Backend, Web socket, frontend을 전담하고 기획, 디자인을 주도 함 / Discord interface를 응용해서 사용자들이 빠르고 쉽게 다양한 NFT poker 게임을 즐길 수 있게 구현 / 토큰과 코인을 각 게임방 Smart Contract에 걸고 게임을 진행 / 승패에 따라 게임에 걸었던 코인,토큰이 이동됨 / 현재 개발 중'
+          summary='Klaytn의 NFT Collection을 활용하여 NFT Poker 카드를 생성하고 해당 카드로 게임을 할 수 있는 플랫폼 / 토큰과 코인을 각 게임방 Smart Contract에 걸고 게임을 진행 / Backend, Web socket, frontend을 전담하고 기획, 디자인을 주도 함 / Discord UI/UX를 응용해서 사용자들이 빠르고 쉽게 NFT poker 게임을 즐길 수 있게 구현 / 사람들이 소유하고 있는 NFT Collection을 다양한 카드 게임으로 즐길 수 있도록 개발 중'
           link='https://dorahacks.io/buidl/8274'
           github='https://github.com/YouJun-IWON/NFT-Card-Game'
           type='Web3 / Klaytn / KIP-17 / Klaymakers 2023 Global Virtual Hackathon / 10,000$ / Web Socket'
@@ -45,7 +45,7 @@ const OnGoingProjects = () => {
 
         <ProcessingProject
           title='DNFT Stamp Board Ticket Platform (🥇 대상 수상작)'
-          summary='블록체인 기술을 활용하여 인천시의 다양한 문화를 보다 즐겁게 누릴 수 있는 NFT 스탬프 아이디어 / erc1155를 아이디어에 맞춰 제작 했으면 프론트를 전담함 / 대납 서비스와 웹에서 온체인 데이터를 읽어 보다 직관적인 ui로 보여줘서 사용자들이 기존 web2 처럼 편하게 사용할 수 있도록 구성 / 사용자가 쉽고 빠르게 자신만의 stamp 티켓을 여러개 구성 및 관리 할 수 있도록 제작 / 멀티 지갑 연결로 누구나 쉽게 접속 가능하게 구현'
+          summary='블록체인 기술을 활용하여 인천시의 다양한 문화를 보다 즐겁게 누릴 수 있는 NFT 스탬프 아이디어 / erc1155를 아이디어에 맞춰 제작, IPFS 일부 GET,POST API, 프론트를 전담함 / 대납 서비스와 웹에서 온체인 데이터를 읽어 보다 직관적인 ui로 보여줘서 사용자들이 기존 web2 처럼 편하게 사용할 수 있도록 구성 / 사용자가 쉽고 빠르게 자신만의 stamp 티켓을 여러개 구성 및 관리 할 수 있도록 제작 / 멀티 지갑 연결로 누구나 쉽게 접속 가능하게 구현'
           link='https://lbank-hackathon.vercel.app/'
           github='https://github.com/YouJun-IWON/GBIC-hackathon'
           type='Web3 / Polygon / erc1155 / GBIC 2023 Hackathon / Responsive / 6,000,000￦ ROA CORE'
@@ -53,7 +53,6 @@ const OnGoingProjects = () => {
           img={GBIC}
           date='2023.10.30 ~ 2023.10.31 (GBIC 2023 해커톤)'
           clip='https://candle-keyboard-dd4.notion.site/DNFT-Ticket-Platform-5aa6658157324768aab0e0ccc7e755b3?pvs=4'
-          myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / Transaction, Application 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중'
           icons={`${NextJSIcon.src} / ${ReactIcon.src} / ${TypescriptIcon.src} / ${SolidityIcon.src} / ${EtherJSIcon.src} / ${PolygonIcon.src} / ${MoralisIcon.src} / ${HardHatIcon.src} / ${WagmiIcon.src} / ${MotionFramerIcon.src} / ${TailwindCSS.src}`}
         />
         <ProcessingProject
@@ -65,7 +64,6 @@ const OnGoingProjects = () => {
           img={NearDnftProject}
           date='2023.09.14 ~ 2023.09.21 (2023 BOS Collegium Contest)'
           clip='https://candle-keyboard-dd4.notion.site/Near-Protocol-2023-BOS-Collegium-e6549d675d7340fca205c4d137062a7b?pvs=4'
-          myOpinion='높은 확장성을 가진 contract NFT를 생성하고 사고 팔 수 있는 플랫폼 / 해당 기술과 절차에 대한 특허 등록 완료 / Transaction, Application 생성, 판매, 신청, 신고, 수락, 연기, 거절 기능 활성화 / Metamask를 사용해 NextAuth를 통한 로그인 구현 / 현재 solidity로 Smart Contract 구성중'
           icons={`${NearIcon.src} / ${StyledComponentsIcon.src} / ${ReactIcon.src}`}
         />
       </div>
@@ -132,7 +130,7 @@ const ProcessingProject = ({
 }: any) => {
   const svgIcons = icons.split(' / ').map((SvgIcon: string, index: number) => (
     <>
-      <div key={index} >
+      <div key={index}>
         <Image
           src={SvgIcon}
           width={30}
