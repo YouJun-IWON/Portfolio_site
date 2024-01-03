@@ -71,7 +71,7 @@ const NextJSProjects = () => {
               link='https://www.pets-mas.com'
               github='https://github.com/YouJun-IWON/Catchit-Marketing-Web'
               youtube='https://www.youtube.com/watch?v=mBvLnZIfWoA'
-              type='Responsive / Real Service Deployment / AI Generation Platform'
+              type='Responsive / Real Service Deployment / AI Profile Generation Platform'
               img={MerryCatProject}
               date='2023.12.12 ~ 2023.12.23'
               icons={`${NextJSIcon.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src}`}
