@@ -123,7 +123,7 @@ const Experience = () => {
             work='대상 수상 (상금 6,000,000 ￦) / 아이디어 기획 및 디자인, 프론트 전담, Web3 지갑 연결 및 기능 활용, erc1155 를 아이디어에 맞춰 재구성 후 백엔드와 협업, 팀원들과 역할 분담 및 시간 조율'
           />
           <Details
-            position='Member'
+            position='Executives'
             company='Blockchain At YONSEI (BAY)'
             companyLink='https://www.blockchainatyonsei.com/'
             time='2023.09-Present'
