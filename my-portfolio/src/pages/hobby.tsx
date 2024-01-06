@@ -16,16 +16,11 @@ const hobby = () => {
       {/* <ParticlesContainer /> */}
       <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center '>
-        
         <Layout className='pt-30'>
-     
-        <div className='flex flex-col gap-10'>
-
-
-       <GymComponent />
-      <WritingComponent />
-        </div>
-
+          <div className='flex flex-col gap-10'>
+            <GymComponent />
+            <WritingComponent />
+          </div>
         </Layout>
       </main>
     </>
