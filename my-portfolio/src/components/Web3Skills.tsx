@@ -94,14 +94,7 @@ const Web3Skills = () => {
           className='shadow-yellow-500 '
         />
 
-        <Skill
-          x='-10vw'
-          y='10vw'
-          source={TruffleIcon}
-          name='Truffle/Ganache'
-          level='Basic'
-          className='shadow-amber-900'
-        />
+        
 
         <Skill
           x='-10vw'

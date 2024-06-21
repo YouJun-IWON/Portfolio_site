@@ -76,7 +76,7 @@ const FESkills = () => {
           y='10vw'
           source={CSSicon}
           name='CSS'
-          level='Intermediate'
+          level='Advanced'
           className='shadow-blue-400'
         />
 
@@ -103,7 +103,7 @@ const FESkills = () => {
           y='10vw'
           source={ReactIcon}
           name='React'
-          level='intermediate'
+          level='Advanced'
           className='shadow-sky-400'
         />
 
@@ -121,7 +121,7 @@ const FESkills = () => {
           y='10vw'
           source={ReduxIcon}
           name='Redux'
-          level='intermediate'
+          level='Intermediate'
           className='shadow-violet-500'
         />
 
@@ -130,7 +130,7 @@ const FESkills = () => {
           y='10vw'
           source={ZustandIcon}
           name='Zustand'
-          level='intermediate'
+          level='Advanced'
           className='shadow-amber-800'
         />
 
@@ -202,7 +202,7 @@ const FESkills = () => {
           y='10vw'
           source={ReactQueryIcon}
           name='React Query'
-          level='Basic'
+          level='Advanced'
           className='shadow-red-500'
         />
 

@@ -84,6 +84,33 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
+            position='Leader / Fullstack Developer'
+            company='RED Flight'
+            companyLink='https://app.akindo.io/communities/1PEkRnLZPtqA74d7k/products/gXzmdewgpHJ0EdQDm'
+            time='2024.04.20-Present'
+            address='Online'
+            blockchainLink='https://app.akindo.io/communities/1PEkRnLZPtqA74d7k/products/gXzmdewgpHJ0EdQDm'
+            work='현재 Unity 개발자, 3D modeling, Designer 7명과 함께 LLM Jailbreaking 게임을 개발중. Manta Network에서 지원을 받고 있음.'
+          />
+          <Details
+            position='Leader / Fullstack Developer'
+            company='AIM RED Force'
+            companyLink='https://devfolio.co/projects/aim-red-9aed'
+            time='2024.03.22-2023.04.10'
+            address='Online'
+            blockchainLink='https://devfolio.co/projects/aim-red-9aed'
+            work='LLM Jailbreaking NFT Game을 개발해서 Prompt Data를 주권화시키고 NFT 사고팔 수 있는 Web3 게임을 제작함.'
+          />
+          <Details
+            position='DEV Ambassador'
+            company='Kalytn'
+            companyLink='https://klaytn.foundation/'
+            time='2024.01.01-2024.06.30'
+            address='Online'
+            blockchainLink='https://klaytn.foundation/'
+            work='Multi Sig 기술을 활용한 Safe Wallet Web Application 개발(런칭 검토중)'
+          />
+          <Details
             position='FrontEnd Developer'
             company='메리 댕냥스마스'
             companyLink='https://pets-mas.vercel.app/login'

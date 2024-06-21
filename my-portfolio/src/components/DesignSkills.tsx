@@ -7,7 +7,6 @@ import Image from 'next/image';
 import FigmaIcon from '../../public/images/svgs/skills/Figma-logo.svg';
 import AdobeExpressIcon from '../../public/images/svgs/skills/Screenshot 2023-08-16 at 1.55.17 PM.png';
 
-
 const Skill = ({ name, x, y, level, source, className }: any) => {
   return (
     <motion.div
@@ -50,21 +49,18 @@ const DesignSkills = () => {
           y='10vw'
           source={FigmaIcon}
           name='Figma'
-          level='Basic'
+          level='Intermediate'
           className='shadow-purple-500'
         />
 
-<Skill
+        <Skill
           x='10vw'
           y='10vw'
           source={AdobeExpressIcon}
           name='Adobe Express'
-          level='Basic'
+          level='Intermediate'
           className='shadow-pink-500'
         />
-
-
-     
 
         {/* <motion.div
           className='flex rounded-full font-semibold bg-dark mt-10 text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2 z-10'

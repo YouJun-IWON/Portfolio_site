@@ -84,7 +84,7 @@ const BESkills = () => {
           y='10vw'
           source={ExpressIcon}
           name='Express'
-          level='Basic'
+          level='Intermediate'
           className='shadow-gray-500'
         />
 
@@ -93,7 +93,7 @@ const BESkills = () => {
           y='10vw'
           source={NestJSIcon}
           name='NestJS'
-          level='Basic'
+          level='Intermediate'
           className='shadow-red-500'
         />
 
@@ -129,7 +129,7 @@ const BESkills = () => {
           y='10vw'
           source={RedisIcon}
           name='Redis'
-          level='Basic'
+          level='Intermediate'
           className='shadow-red-600'
         />
 

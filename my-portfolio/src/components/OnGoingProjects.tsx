@@ -8,6 +8,7 @@ import React from 'react';
 import GBIC from '../../public/images/projects/GBIC.png';
 import NearDnftProject from '../../public/images/projects/NearDNFTComponent.png';
 import Klaymakers from '../../public/images/projects/Klaymakers.png';
+import AIMred from '../../public/images/projects/Aim-red.png';
 
 import { motion } from 'framer-motion';
 import { FaDatabase } from 'react-icons/fa';
@@ -29,6 +30,20 @@ const OnGoingProjects = () => {
         <span className='font-bold text-4xl md:text-3xl inline-block'>
           Projects with Hackathon's Prize 🏆
         </span>
+        <ProcessingProject
+          title='LLM Jailbreak NFT Game (🥇 1st 수상작)'
+          summary='LLM Jailbreak Prompt 데이터를 NFT 형태로 사고팔 수 있는 게임 / LLM Bug Bounty Crowdsourcing Platform / Team Leader로서 아이디어를 기획하고 전반적인 부분을 개발함 / 현재 Unity 개발자와 Steam, Meta Quest 게임으로 고도화 중'
+          link='https://devfolio.co/projects/aim-red-9aed'
+          github='https://github.com/YouJun-IWON/AIM-RED-ETH-SEOUL'
+          type='Web3 / AI / LLM Jailbreak / ETH Seoul 2024 Hackathon / 10,000$ / NFT Data Market / Account Abstraction'
+          youtube='https://www.youtube.com/watch?v=44oysbCKnfc'
+          img={AIMred}
+          date='2024.03.28 ~ 2023.04.10 (ETH Seoul 2024 Hackathon)'
+          clip='https://devfolio.co/projects/aim-red-9aed'
+          myOpinion='Deck: https://drive.google.com/file/d/1D3wfK0rNqIrQxAgCGHbqks3uitKUyp3L/view / Winners: https://www.youtube.com/watch?v=h5kudIWPhec / Presentation: https://www.youtube.com/watch?v=dapCK2tNcKE&t=571s'
+          icons={`${NextJSIcon.src} / ${ReactIcon.src} / ${TypescriptIcon.src} / ${SolidityIcon.src} / ${EtherJSIcon.src} / ${ChatGPT.src} / ${Cluade.src} / ${TailwindCSS.src} / ${ZustandIcon.src}`}
+        />
+
         <ProcessingProject
           title='NFT Collection Poker Game KlayOne (🥈 2nd 수상작)'
           summary='Klaytn의 NFT Collection을 활용하여 NFT Poker 카드를 생성하고 해당 카드로 게임을 할 수 있는 플랫폼 / 토큰과 코인을 각 게임방 Smart Contract에 걸고 게임을 진행 / Backend, Web socket, frontend을 전담하고 기획, 디자인을 주도 함 / Discord UI/UX를 응용해서 사용자들이 빠르고 쉽게 NFT poker 게임을 즐길 수 있게 구현 / 사람들이 소유하고 있는 NFT Collection을 다양한 카드 게임으로 즐길 수 있도록 개발 중'
@@ -84,6 +99,8 @@ import TailwindCSS from '../../public/images/svgs/skills/tailwindcss-icon-svgrep
 import SCSSIcon from '../../public/images/svgs/skills/scss-svgrepo-com.svg';
 import MaterialUIIcon from '../../public/images/svgs/skills/material-ui-svgrepo-com.svg';
 import ReduxIcon from '../../public/images/svgs/skills/redux-svgrepo-com.svg';
+import ChatGPT from '../../public/images/svgs/skills/ChatGPT.png';
+import Cluade from '../../public/images/svgs/skills/claude-ai.webp';
 import ZustandIcon from '../../public/images/svgs/skills/CompressJPEG.online_500x500-image.png';
 import StyledComponentsIcon from '../../public/images/svgs/skills/styled-components-1.svg';
 import EmotionIcon from '../../public/images/svgs/skills/emotion.png';

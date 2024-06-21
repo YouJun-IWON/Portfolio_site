@@ -70,10 +70,7 @@ export default function Home() {
               </div>
 
               <AnimatedText
-                text='As a skilled Web3 developer, I am dedicated to turning ideas
-                into innovative web applications. Explore my latest projects and
-                articles, showcasing my expertise in React.js / NextJS and Web3
-                Development.'
+                text='As an experienced software developer, I am dedicated to turning ideas into innovative applications. Take a look at my latest projects and articles to explore my expertise in React.js/NextJS and AI/Web3 development.'
                 className='!normal-case !items-start !text-start !text-lg !font-medium !md:text-sm !sm:text-xs'
               />
 
