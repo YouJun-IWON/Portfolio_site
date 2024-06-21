@@ -9,6 +9,7 @@ import React, { useEffect, useState } from 'react';
 import NextJSBlogProject from '../../public/images/projects/Blog.png';
 
 import PortfolioProject from '../../public/images/projects/portfolio.png';
+import ABC from '../../public/images/projects/ABC.png';
 import MerryCatProject from '../../public/images/projects/MerryCat.png';
 import Catchit from '../../public/images/projects/Catchit.png';
 import YouRelloProject from '../../public/images/projects/YouRello.png';
@@ -64,6 +65,20 @@ const NextJSProjects = () => {
           navigation
           pagination={{ clickable: true }}
         >
+          <SwiperSlide>
+            <Project
+              title='AI Binance Cast (Blockchain & LLM SNS Platform)'
+              summary='AI와 블록체인 기술을 결합한 SNS Platform / Depin 을 활용한 데이터 주관 및 가치 보장 / BNB Greenfield / 실시간으로 데이터를 학습하는 LLM 개발 및  도입'
+              link='https://dorahacks.io/ko/buidl/10602'
+              github='https://github.com/AIM-Intelligence/Ai-Binance-Cast'
+              youtube='https://www.youtube.com/watch?v=fjsj19He25I'
+              type='Responsive / Real Service Deployment / AI Profile Generation Platform'
+              img={ABC}
+              date='2024.01.16 ~ 2024.02.04'
+              icons={`${NextJSIcon.src} / ${ChatGPT.src} / ${BNB.src} / ${TypescriptIcon.src} / ${TailwindCSS.src} / ${ZustandIcon.src}`}
+            />
+          </SwiperSlide>
+
           <SwiperSlide>
             <Project
               title='반려동물 Christmas Edition AI Profile 생성 플랫폼'
@@ -161,6 +176,7 @@ import TailwindCSS from '../../public/images/svgs/skills/tailwindcss-icon-svgrep
 import SCSSIcon from '../../public/images/svgs/skills/scss-svgrepo-com.svg';
 import MaterialUIIcon from '../../public/images/svgs/skills/material-ui-svgrepo-com.svg';
 import ReduxIcon from '../../public/images/svgs/skills/redux-svgrepo-com.svg';
+import ChatGPT from '../../public/images/svgs/skills/ChatGPT.png';
 import ZustandIcon from '../../public/images/svgs/skills/CompressJPEG.online_500x500-image.png';
 import StyledComponentsIcon from '../../public/images/svgs/skills/styled-components-1.svg';
 import EmotionIcon from '../../public/images/svgs/skills/emotion.png';
@@ -169,6 +185,7 @@ import MotionFramerIcon from '../../public/images/svgs/skills/framer-motion.svg'
 import ReactQueryIcon from '../../public/images/svgs/skills/react-query-seeklogo.com.svg';
 import SWRIcon from '../../public/images/svgs/skills/swr-seeklogo.com.svg';
 import GrapeQLIcon from '../../public/images/svgs/skills/graphql-svgrepo-com.svg';
+import BNB from '../../public/images/svgs/skills/bnb.png';
 import PrismaIcon from '../../public/images/svgs/skills/light-prisma-svgrepo-com.svg';
 import NodeJSIcon from '../../public/images/svgs/skills/node-js-svgrepo-com.svg';
 import ExpressIcon from '../../public/images/svgs/skills/express-svgrepo-com.svg';
